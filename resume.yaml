@@ -7,31 +7,51 @@ mail: ireullin@gmail.com
 
 github: https://github.com/ireullin
 
-education:
+profile:
+  zh:
+  en:
+
+educations:
   - name:
       zh: 國立宜蘭大學二技部
-      en:
+      en: National I-lan University 2-Years College
     department:
       zh: 機械工程系
-      en:
+      en: Department of Mechanical and Electro-Mechanical Engineering
     duration: 2000/9 – 2002/6
 
   - name:
       zh: 國立宜蘭大學五專部
-      en:
+      en: National I-lan University 5-Years Junior College
     department:
       zh: 機械工程系
-      en:
+      en: Department of Mechanical and Electro-Mechanical Engineering
     duration: 1995/9 – 2000/6
 
+licenses:
+  - name: edX Verified Certificate for Introduction to Big Data with Apache Spark
+    url: https://s3.amazonaws.com/verify.edx.org/downloads/e1dea0d2d0c344a6bb990185634d8034/Certificate.pdf
 
+  - name: edX Verified Certificate for Scalable Machine Learning
+    url: https://s3.amazonaws.com/verify.edx.org/downloads/9e4861dc0e1e49f98357a32aef596b16/Certificate.pdf
 
+  - name: Big Data a series of two courses offered by BerkeleyX through edX
+    url: https://s3.amazonaws.com/verify.edx.org/downloads/bea2cc236ac848e0a07544f09e4cf06f/Certificate.pdf
 
+programs:
+  good: C++ 98, Java, C#, Ruby
+  general: Pure c, Python, Java script, Php
+  used: Perl, R, Octave, COBOL
 
+libraries: STD, ROR, spark, kafka, .net freamwork, jQuery, gearman, codeigniter, MFC, QuickFIX,
 
+databases: Solr, Elastic, Redis, MsSQL, MySQL,PostgreSQL, Oracle
 
+vsersion_controlls: Git, SVN, SourceSafe
 
+os: AIX, Linux(ubuntu, centos), Windows, FreeBSD
 
+experiences: Scrum, TCP/IP
 
 
 
