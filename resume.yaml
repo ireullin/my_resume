@@ -8,7 +8,13 @@ mail: ireullin@gmail.com
 github: https://github.com/ireullin
 
 profile:
-  zh:
+  zh: 我是一個程式設計師,主要專長為使用c++設計關於linux system call與tcp封包操作的程式,
+      另外我擅長使用Ruby當作膠水語言來進行一些作業系統的管理以及各程式間的資訊交換(IPC),
+	  並且使用Ruby on Rails在短時間之內建立一個可視覺化的產品雛形.
+	  目前任職於一家電商公司,主要負責搜尋引擎(solr)的校調與維護,並且參與一些分散式系統的設計,主要使用的語言為java.
+	  在我個人的時間時,我也樂於參與一些國外大學的機器學習(Machine learning)以及崁入式系統(Embedded Systems)
+	  的課程並取得證書.
+  
   en:
 
 educations:
@@ -53,6 +59,56 @@ os: AIX, Linux(ubuntu, centos), Windows, FreeBSD
 
 experiences: Scrum, TCP/IP
 
-
+companies:
+  - name:
+      zh: Uitox
+	  en: Uitox
+    position:
+      zh: 資深工程師
+      en: Senior software engineer
+    duration: 2014/1 – now
+	
+  - name:
+      zh: Bull computer
+      en: Bull computer
+    position:
+      zh: 資深工程師
+      en: Senior software engineer
+    duration: 2010/11 – 2013/12
+	
+  - name:
+      zh: 鈊象電子
+	  en: International Games System CO.
+    position:
+      zh: 工程師
+      en: Software engineer
+    duration: 2006/11 – 2010/5
+	
+  - name:
+      zh: 中國信託
+	  en: Chinatrust
+    position:
+      zh: 工程師
+      en: Software engineer
+    duration: 2010/11 – 2013/12
+	
+projects:
+  - summary: 
+      zh: 
+	  en:
+	company:
+	  zh: Uitox
+	  en: Uitox
+	description:
+	  zh: 
+	  en:
+	
+	
+	
+	
+	
+	
+	
+	
 
 
