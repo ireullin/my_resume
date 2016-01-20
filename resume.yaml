@@ -5,6 +5,10 @@ name:
 
 mail: ireullin@gmail.com
 
+phones:
+  - (+886)933726835
+  - (+886)227854224
+
 github: https://github.com/ireullin
 
 profile:
@@ -17,7 +21,7 @@ profile:
   en:
 
 educations:
-  - name:
+  - school:
       zh: 國立宜蘭大學二技部
       en: National I-lan University 2-Years College
     department:
@@ -25,7 +29,7 @@ educations:
       en: Department of Mechanical and Electro-Mechanical Engineering
     duration: 2000/9 – 2002/6
 
-  - name:
+  - school:
       zh: 國立宜蘭大學五專部
       en: National I-lan University 5-Years Junior College
     department:

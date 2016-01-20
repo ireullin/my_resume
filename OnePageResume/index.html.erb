@@ -1,7 +1,7 @@
 <%
 require 'yaml'
 
-@lang = 'en'
+@lang = 'zh'
 @data = YAML.load_file("../resume.yaml")
 
 %>
@@ -17,7 +17,7 @@ require 'yaml'
 
      <style type="text/css">
         * { margin: 0; padding: 0; }
-        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; /*background: url(images/noise.jpg);*/ }
         .clear { clear: both; }
         #page-wrap { width: 800px; margin: 40px auto 60px; }
         #pic { float: right; margin: -30px 0 0 0; }
@@ -40,7 +40,7 @@ require 'yaml'
 
     <div id="page-wrap">
 
-        <img src="images/cthulu.png" alt="Photo of Cthulu" id="pic" />
+        <img src="images/Life3.jpg" alt="Photo of Cthulu" id="pic" />
 
         <div id="contact-info" class="vcard">
 
@@ -55,12 +55,7 @@ require 'yaml'
         </div>
 
         <div id="objective">
-            <p>
-                I am an outgoing and energetic (ask anybody) young professional, seeking a
-                career that fits my professional skills, personality, and murderous tendencies.
-                My squid-like head is a masterful problem solver and inspires fear in who gaze upon it.
-                I can bring world domination to your organization.
-            </p>
+            <p><%= @data['profile'][@lang] %></p>
         </div>
 
         <div class="clear"></div>
@@ -70,9 +65,20 @@ require 'yaml'
 
             <dt>Education</dt>
             <dd>
-                <h2>Withering Madness University - Planet Vhoorl</h2>
-                <p><strong>Major:</strong> Public Relations<br />
-                   <strong>Minor:</strong> Scale Tending</p>
+                <h2><%= @data['educations'][0]['school'][@lang] %></h2>
+                <p><%= @data['educations'][0]['department'][@lang] %></p><br />
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>Licenses</dt>
+            <dd>
+            <% @data['licenses'].each do |license| %>
+
+                <h2><%= license['name'] %></h2>
+                <p><a href="<%= license['url'] %>"><%= license['url'] %></a></p><br />
+
+            <% end %>
             </dd>
 
             <dd class="clear"></dd>
