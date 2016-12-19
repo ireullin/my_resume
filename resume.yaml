@@ -16,13 +16,13 @@ profile:
       與IPC(inter-process communication)完成各種components,以利於其他語言可以更簡便的對系統進行操作
       但仍然保有良好的效能,另外我還透過python與ruby建立了各種測試程式,以確保產品有一定程度的穩定性,
       並且達到自動化的佈署,減少人為的疏失.
-      我個人最大的特色,就是有旺盛的好奇心以及學習的慾望,還有非常積極的行動能力,
+      我個人最大的特色,就是有旺盛的好奇心以及學習的慾望,還有非常積極的行動能力,以及對程式碼的熱愛,
       承蒙現在公司(Uitox)願意給予機會,還有目前主管以及同事不吝嗇的分享知識與各種學習資源下,
       開始接觸到了ML(machine learning)的領域,在這段期間我獨立完成了我們公司第一套的推薦系統,
       其中包括了架構的規劃,專案的管理,實驗的設計,到數據的視覺化以及在第一版中完全不倚靠任何函式庫的情況下
       實作了association rule以及k-means兩個演算法,並且在10 folds cross validation中達到了21%的命中率
-      (扣除通用電商中衛生紙等常見日用品,若不扣除則命中率為29%),並且在後續的版本中開始導入spark,
-      利用裡頭ALS(alternative least square)的解法來實作collaborative filtering的演算法並進行推薦系統的改良.
+      (上述扣除通用電商中衛生紙等常見日用品,若不扣除則命中率為29%),並且在後續的版本中開始導入spark,進行分散式的運算,
+      以及利用裡頭ALS(alternative least square)的解法來實作collaborative filtering的演算法來改良原本的推薦系統.
 
 
 educations:
@@ -62,9 +62,9 @@ licenses:
   - name: BerkeleyX CS120x. Distributed Machine Learning with Apache Spark
 
 programs:
-  good: C++ 98, Java, scala, C#, Ruby, Python
-  general: Pure c, Go, Java script, Php
-  used: Perl, R, Octave, COBOL
+  excellent: C++ 98, Java, scala, C#, Ruby, Python
+  good: Pure c, Go, Java script, Php
+  general: Perl, R, Octave, COBOL
 
 libraries: STD, Ruby on Rails, spark, kafka, akka, .net freamwork, jQuery, gearman, codeigniter, MFC, QuickFIX
 
@@ -74,7 +74,7 @@ vsersion_controlls: Git, SVN, SourceSafe
 
 os: AIX, Linux(ubuntu, centos), Windows, FreeBSD
 
-experiences: Scrum, TCP/IP
+special_experiences_and_knowledge: Scrum, TCP/IP with raw socket, Inter-process communication, Docker
 
 companies:
   - name:
@@ -109,13 +109,97 @@ companies:
       en: Software engineer
     duration: 2010/11 – 2013/12
 
-projects:
-  - summary:
-      zh:
-      en:
-    company:
-      zh: Uitox
-      en: Uitox
-    description:
-      zh:
-      en:
+attainments:
+  comment: 
+    zh: 只列出有特色的以及大型專案
+    en:
+
+  attainment:
+    - summary:
+        zh: 推薦系統
+        en:
+      company:
+        zh: Uitox
+        en: Uitox
+      description:
+        zh: 獨立一人完成架構的規劃,專案的管理,實驗的設計,數據的視覺化以及在第一版中完全不倚靠任何函式庫的情況下
+            實作了association rule以及k-means兩個演算法,並且在10 folds cross validation中達到了21%的命中率
+            (上述扣除通用電商中衛生紙等常見日用品,若不扣除則命中率為29%),並且在後續的版本中開始導入spark,進行分散式的運算,
+            以及利用裡頭ALS(alternative least square)的解法來實作collaborative filtering的演算法來改良原本的推薦系統,
+            後面還有陸續規劃click rate以及轉換率的數據回收機制.
+        en:
+
+    - summary:
+        zh: 專案管理
+        en:
+      company:
+        zh: Uitox
+        en: Uitox
+      description:
+        zh: 帶領一個六人團隊(包含自己),完成一個後端平台,其中包含架構設計,規格的討論,工作的分配,以及每人進度的掌握,
+            還有協助解決每個人技術上遭遇的問題,最後在上海進行兩個月的技術交接.
+        en:
+
+    - summary:
+        zh: 開發環境以及production環境的的建立以及維護
+        en:
+      company:
+        zh: Uitox
+        en: Uitox
+      description:
+        zh: 分別在本地端機房以及GCP(Google Cloud Platform)上VM以及docker container的管理,其中包含了自動化佈署,以及效能的調教
+        en:
+
+    - summary:
+        zh: 網路掃描軟體 NetworkScanner
+        en:
+      company:
+        zh: 個人專案
+        en: private project
+      description:
+        zh: 以練習為目的所開發的程式,可以大範圍掃描某個網段中所有機器工作中的port以及推斷其作業系統,並透過一個web介面加以控制,
+            此程式沒有使用system call之外的任何library,因此裡頭實作了ping(icmp scan), traceroute, syn scan, syn/ack scan, fin scan 等功能,
+            並且還擁有一個實作了部分http protocol的web server以及json parser
+        en:
+      url: https://github.com/ireullin/NetworkScanner
+
+    - summary:
+        zh: ERP系統
+        en: systems of ERP
+      company:
+        zh: 個人專案
+        en: private project
+      description:
+        zh: 私人承接的外包案,案主分別是一個室內設計工作室以及印刷廠,分別使用php以及Ruby on Rails協助建立一套表單系統
+        en:
+
+    - summary:
+        zh: MyClinic App
+        en: 
+      company:
+        zh: 個人專案
+        en: private project
+      description:
+        zh: 與一群朋友私下成立的專案,主要是在ios上面提供一個搜尋醫療資源的APP,我負責的是後端的部分,採用的是Ruby on Rails
+        en:
+
+    - summary:
+        zh: 遊戲明星三缺一的程式維護
+        en: 
+      company:
+        zh: 鈊象電子
+        en: International Games System CO.
+      description:
+        zh: 主要負責麻將遊戲明星三缺一的client與server端維護與改版
+        en:    
+
+    - summary:
+        zh: Game tower遊戲平台後端管理平台的開發
+        en: 
+      company:
+        zh: 鈊象電子
+        en: International Games System CO.
+      description:
+        zh: Game tower系列遊戲(明星三缺一為其中一款)後端管理平台的開發,主要提供遊戲參數設定,牌局重現機制(sourcing log),以及提供報表
+        en:    
+
