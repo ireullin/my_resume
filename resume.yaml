@@ -38,6 +38,9 @@ educations:
     duration: 1995/9 – 2000/6
 
 licenses:
+  - name: Stanford University Machine Learning
+    url: https://www.coursera.org/account/accomplishments/verify/XPA4ABGB3D5G
+
   - name: edX Verified Certificate for Introduction to Big Data with Apache Spark
     url: https://s3.amazonaws.com/verify.edx.org/downloads/e1dea0d2d0c344a6bb990185634d8034/Certificate.pdf
 
@@ -47,14 +50,22 @@ licenses:
   - name: Big Data a series of two courses offered by BerkeleyX through edX
     url: https://s3.amazonaws.com/verify.edx.org/downloads/bea2cc236ac848e0a07544f09e4cf06f/Certificate.pdf
 
+  - name: BerkeleyX CS105x. Introduction to Apache Spark
+
+  - name: BerkeleyX CS110x. Big Data Analysis with Apache Spark
+
+  - name: BerkeleyX CS120x. Distributed Machine Learning with Apache Spark
+
+
+
 programs:
-  good: C++ 98, Java, C#, Ruby
-  general: Pure c, Python, Java script, Php
+  good: C++ 98, Java, scala, C#, Ruby, Python
+  general: Pure c, Go, Java script, Php
   used: Perl, R, Octave, COBOL
 
-libraries: STD, ROR, spark, kafka, .net freamwork, jQuery, gearman, codeigniter, MFC, QuickFIX,
+libraries: STD, ROR, spark, kafka, akka, .net freamwork, jQuery, gearman, codeigniter, MFC, QuickFIX,
 
-databases: Solr, Elastic, Redis, MsSQL, MySQL,PostgreSQL, Oracle
+databases: Solr, Elastic, Redis, MsSQL, MySQL, PostgreSQL, Oracle
 
 vsersion_controlls: Git, SVN, SourceSafe
 
