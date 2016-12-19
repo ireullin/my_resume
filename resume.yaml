@@ -12,13 +12,18 @@ phones:
 github: https://github.com/ireullin
 
 profile:
-  zh: 我是一個程式設計師，主要專長為使用c++設計關於linux system call與tcp封包操作的程式，
-      另外我擅長使用Ruby當作膠水語言來進行一些作業系統的管理以及各程式間的資訊交換(IPC)，
-      並且使用Ruby on Rails在短時間之內建立一個可視覺化的產品雛形。
-      目前任職於一家電商公司，主要負責搜尋引擎(solr)的校調與維護，並且參與一些分散式系統的設計，主要使用的語言為java。
-      在我個人的時間時，我也樂於參與一些國外大學的機器學習(Machine learning)以及崁入式系統(Embedded Systems)
-      的課程並取得證書。
-  en:
+  zh: 在職涯的前八年,c++是我最熟悉的語言,我運用他在AIX與Linux中透過SCI(system call interfaces)
+      與IPC(inter-process communication)完成各種components,以利於其他語言可以更簡便的對系統進行操作
+      但仍然保有良好的效能,另外我還透過python與ruby建立了各種測試程式,以確保產品有一定程度的穩定性,
+      並且達到自動化的佈署,減少人為的疏失.
+      我個人最大的特色,就是有旺盛的好奇心以及學習的慾望,還有非常積極的行動能力,
+      承蒙現在公司(Uitox)願意給予機會,還有目前主管以及同事不吝嗇的分享知識與各種學習資源下,
+      開始接觸到了ML(machine learning)的領域,在這段期間我獨立完成了我們公司第一套的推薦系統,
+      其中包括了架構的規劃,專案的管理,實驗的設計,到數據的視覺化以及在第一版中完全不倚靠任何函式庫的情況下
+      實作了association rule以及k-means兩個演算法,並且在10 folds cross validation中達到了21%的命中率
+      (扣除通用電商中衛生紙等常見日用品,若不扣除則命中率為29%),並且在後續的版本中開始導入spark,
+      利用裡頭ALS(alternative least square)的解法來實作collaborative filtering的演算法並進行推薦系統的改良.
+
 
 educations:
   - school:
@@ -56,14 +61,12 @@ licenses:
 
   - name: BerkeleyX CS120x. Distributed Machine Learning with Apache Spark
 
-
-
 programs:
   good: C++ 98, Java, scala, C#, Ruby, Python
   general: Pure c, Go, Java script, Php
   used: Perl, R, Octave, COBOL
 
-libraries: STD, ROR, spark, kafka, akka, .net freamwork, jQuery, gearman, codeigniter, MFC, QuickFIX,
+libraries: STD, Ruby on Rails, spark, kafka, akka, .net freamwork, jQuery, gearman, codeigniter, MFC, QuickFIX
 
 databases: Solr, Elastic, Redis, MsSQL, MySQL, PostgreSQL, Oracle
 
