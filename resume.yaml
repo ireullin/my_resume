@@ -62,24 +62,66 @@ licenses:
   - name: BerkeleyX CS120x. Distributed Machine Learning with Apache Spark
 
 programs:
-  excellent: C++ 98, Java, scala, C#, Ruby, Python
-  good: Pure c, Go, Java script, Php
-  general: Perl, R, Octave, COBOL
+  excellent: 
+    - C++ 98
+    - Java
+    - scala
+    - C#
+    - Ruby
+    - Python
+  good:
+    - Pure c
+    - Go
+    - Java script
+    - Php
+  general:
+    - Perl
+    - R
+    - Octave
+    - COBOL
 
-libraries: STD, Ruby on Rails, spark, kafka, akka, .net freamwork, jQuery, gearman, codeigniter, MFC, QuickFIX
+libraries: 
+  - STD
+  - Ruby on Rails
+  - spark
+  - kafka
+  - akka
+  - .net freamwork
+  - jQuery
+  - gearman
+  - codeigniter
+  - MFC
+  - QuickFIX
 
-databases: Solr, Elastic, Redis, MsSQL, MySQL, PostgreSQL, Oracle
+databases: 
+  - Solr
+  -  Elastic
+  -  Redis
+  -  MsSQL
+  -  MySQL
+  -  PostgreSQL
+  -  Oracle
 
-vsersion_controlls: Git, SVN, SourceSafe
+vsersion_controlls: 
+  - Git
+  - SVN
+  - SourceSafe
 
-os: AIX, Linux(ubuntu, centos), Windows, FreeBSD
+os:
+  - AIX
+  - Linux(ubuntu & centos)
+  - Windows
 
-special_experiences_and_knowledge: Scrum, TCP/IP with raw socket, Inter-process communication, Docker
+special_experiences_and_knowledge: 
+  - Scrum
+  - TCP/IP with raw socket
+  - Inter-process communication
+  - Docker
 
 companies:
   - name:
-    zh: Uitox
-    en: Uitox
+      zh: Uitox
+      en: Uitox
     position:
       zh: 資深工程師
       en: Senior software engineer
@@ -114,7 +156,7 @@ attainments:
     zh: 只列出有特色的以及大型專案
     en:
 
-  attainment:
+  items:
     - summary:
         zh: 推薦系統
         en:
