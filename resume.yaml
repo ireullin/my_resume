@@ -12,11 +12,12 @@ phones:
 github: https://github.com/ireullin
 
 profile:
-  zh: 在職涯的前八年,c++是我最熟悉的語言,我運用他在AIX與Linux中透過SCI(system call interfaces)
+  zh:
+    - 在職涯的前八年,c++是我最熟悉的語言,我運用他在AIX與Linux中透過SCI(system call interfaces)
       與IPC(inter-process communication)完成各種components,以利於其他語言可以更簡便的對系統進行操作
       但仍然保有良好的效能,另外我還透過python與ruby建立了各種測試程式,以確保產品有一定程度的穩定性,
       並且達到自動化的佈署,減少人為的疏失.
-      我個人最大的特色,就是有旺盛的好奇心以及學習的慾望,還有非常積極的行動能力,以及對程式碼的熱愛,
+    - 我個人最大的特色,就是有旺盛的好奇心以及學習的慾望,還有非常積極的行動能力,以及對程式碼的熱愛,
       承蒙現在公司(Uitox)願意給予機會,還有目前主管以及同事不吝嗇的分享知識與各種學習資源下,
       開始接觸到了ML(machine learning)的領域,在這段期間我獨立完成了我們公司第一套的推薦系統,
       其中包括了架構的規劃,專案的管理,實驗的設計,到數據的視覺化以及在第一版中完全不倚靠任何函式庫的情況下
@@ -62,7 +63,7 @@ licenses:
   - name: BerkeleyX CS120x. Distributed Machine Learning with Apache Spark
 
 programs:
-  excellent: 
+  excellent:
     - C++ 98
     - Java
     - scala
@@ -80,7 +81,7 @@ programs:
     - Octave
     - COBOL
 
-libraries: 
+libraries:
   - STD
   - Ruby on Rails
   - spark
@@ -93,7 +94,7 @@ libraries:
   - MFC
   - QuickFIX
 
-databases: 
+databases:
   - Solr
   -  Elastic
   -  Redis
@@ -102,7 +103,7 @@ databases:
   -  PostgreSQL
   -  Oracle
 
-vsersion_controlls: 
+vsersion_controlls:
   - Git
   - SVN
   - SourceSafe
@@ -112,7 +113,7 @@ os:
   - Linux(ubuntu, centos)
   - Windows
 
-special_experiences_and_knowledge: 
+special_experiences_and_knowledge:
   - Scrum
   - TCP/IP with raw socket
   - Inter-process communication
@@ -152,7 +153,7 @@ companies:
     duration: 2010/11 – 2013/12
 
 attainments:
-  comment: 
+  comment:
     zh: 只列出有特色的以及大型專案
     en:
 
@@ -197,7 +198,7 @@ attainments:
         en:
       company:
         zh: 個人專案
-        en: private project
+        en: side project
       description:
         zh: 以練習為目的所開發的程式,可以大範圍掃描某個網段中所有機器工作中的port以及推斷其作業系統,並透過一個web介面加以控制,
             此程式沒有使用system call之外的任何library,因此裡頭實作了ping(icmp scan), traceroute, syn scan, syn/ack scan, fin scan 等功能,
@@ -210,24 +211,24 @@ attainments:
         en: systems of ERP
       company:
         zh: 個人專案
-        en: private project
+        en: side project
       description:
         zh: 私人承接的外包案,案主分別是一個室內設計工作室以及印刷廠,分別使用php以及Ruby on Rails協助建立一套表單系統
         en:
 
     - summary:
         zh: MyClinic App
-        en: 
+        en:
       company:
         zh: 個人專案
-        en: private project
+        en: side project
       description:
         zh: 與一群朋友私下成立的專案,主要是在ios上面提供一個搜尋醫療資源的APP,我負責的是後端的部分,採用的是Ruby on Rails
         en:
 
     - summary:
         zh: 重新實作TMP協定,讓處理效能提高3倍,並且建立一個模擬證交所行為的server
-        en: 
+        en:
       company:
         zh: Bull computer
         en: Bull computer
@@ -236,48 +237,48 @@ attainments:
             並且調整了socket的參數使得整體處理速度與原本的相較下提升3倍,
             另外透過證交所各種回覆的行為,經由逆向工程建立了一個證交所的模擬伺服器,使得公司及客戶不需要額外申請測試線路,
             節省公司及客戶經費,此模擬證交所行為的server為業界唯一
-        en:    
+        en:
 
     - summary:
         zh: 實作一個FIX協定的library
-        en: 
+        en:
       company:
         zh: Bull computer
         en: Bull computer
       description:
         zh: FIX為新一代的證交所與期交所專線所使用的通訊協定,當時國外免費的library只有QuickFIX,但效能與體積都過於臃腫,
             而太多的功能都用不到,所以重新實作了一個輕便的新版本,是當時業界中唯一自己實作的版本
-        en:    
+        en:
 
     - summary:
         zh: 自動產生程式碼,編譯以及測試
-        en: 
+        en:
       company:
         zh: Bull computer
         en: Bull computer
       description:
         zh: 可透過讀取COBOL的程式碼轉為c++並根據設定載入相應的library然後自動編譯以及測試,可以減少人為操作上的疏失,
             最早版本使用python撰寫,後來全部改為ruby
-        en:    
+        en:
 
 
     - summary:
         zh: 遊戲明星三缺一的程式維護
-        en: 
+        en:
       company:
         zh: 鈊象電子
         en: International Games System CO.
       description:
         zh: 主要負責麻將遊戲明星三缺一的client與server端維護與改版
-        en:    
+        en:
 
     - summary:
         zh: Game tower遊戲平台後端管理平台的開發
-        en: 
+        en:
       company:
         zh: 鈊象電子
         en: International Games System CO.
       description:
         zh: Game tower系列遊戲(明星三缺一為其中一款)後端管理平台的開發,主要提供遊戲參數設定,牌局重現機制(sourcing log),以及提供報表
-        en:    
+        en:
 
