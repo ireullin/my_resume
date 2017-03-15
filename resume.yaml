@@ -227,7 +227,7 @@ attainments:
         en:
 
     - summary:
-        zh: 重新實作TMP協定,讓處理效能提高3倍,並且建立一個模擬證交所行為的server
+        zh: 重新實作TMP協定,並且建立一個模擬證交所行為的server
         en:
       company:
         zh: Bull computer
