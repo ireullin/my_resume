@@ -11,6 +11,8 @@ phones:
 
 github: https://github.com/ireullin
 
+blog: https://dotblogs.com.tw/ireullin
+
 profile:
   zh:
     - 在職涯的前八年,c++是我最熟悉的語言,我運用他在AIX與Linux中透過SCI(system call interfaces)
@@ -25,6 +27,8 @@ profile:
       (上述扣除通用電商中衛生紙等常見日用品,若不扣除則命中率為29%),並且在後續的版本中開始導入spark,進行分散式的運算,
       以及利用裡頭ALS(alternative least square)的解法來實作collaborative filtering的演算法來改良原本的推薦系統.
 
+  en:
+    -
 
 educations:
   - school:
@@ -96,12 +100,12 @@ libraries:
 
 databases:
   - Solr
-  -  Elastic
-  -  Redis
-  -  MsSQL
-  -  MySQL
-  -  PostgreSQL
-  -  Oracle
+  - Elastic
+  - Redis
+  - MsSQL
+  - MySQL
+  - PostgreSQL
+  - Oracle
 
 vsersion_controlls:
   - Git
@@ -197,7 +201,7 @@ attainments:
         zh: 網路掃描軟體 NetworkScanner
         en:
       company:
-        zh: 個人專案
+        zh: side project
         en: side project
       description:
         zh: 以練習為目的所開發的程式,可以大範圍掃描某個網段中所有機器工作中的port以及推斷其作業系統,並透過一個web介面加以控制,
@@ -210,7 +214,7 @@ attainments:
         zh: ERP系統
         en: systems of ERP
       company:
-        zh: 個人專案
+        zh: side project
         en: side project
       description:
         zh: 私人承接的外包案,案主分別是一個室內設計工作室以及印刷廠,分別使用php以及Ruby on Rails協助建立一套表單系統
@@ -220,7 +224,7 @@ attainments:
         zh: MyClinic App
         en:
       company:
-        zh: 個人專案
+        zh: side project
         en: side project
       description:
         zh: 與一群朋友私下成立的專案,主要是在ios上面提供一個搜尋醫療資源的APP,我負責的是後端的部分,採用的是Ruby on Rails
