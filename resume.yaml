@@ -163,6 +163,18 @@ attainments:
 
   items:
     - summary:
+        zh: 機器人農場
+        en: robotic farm
+      company:
+        zh: side project
+        en: side project
+      description:
+        zh: 以arduino以及linux打造出一個室內的小農場,可以監控空氣濕度溫度,
+            光源不足的時候自動打開led燈,土壤水分不足的時候會發line通知澆水,
+            並且擁有縮時攝影的功能
+        en:
+
+    - summary:
         zh: 推薦系統
         en:
       company:
