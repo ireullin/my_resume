@@ -76,7 +76,6 @@ programs:
     - Python
   good:
     - Pure c
-    - Go
     - Java script
     - Php
   general:
@@ -200,7 +199,7 @@ attainments:
         en:
 
     - summary:
-        zh: 開發環境以及production環境的的建立以及維護
+        zh: 開發環境以及線上環境的的建立以及維護
         en:
       company:
         zh: Uitox
@@ -289,7 +288,7 @@ attainments:
         en:
 
     - summary:
-        zh: Game tower遊戲平台後端管理平台的開發
+        zh: 遊戲後端管理平台的開發
         en:
       company:
         zh: 鈊象電子
