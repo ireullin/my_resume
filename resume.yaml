@@ -169,9 +169,9 @@ attainments:
         en: side project
       description:
         zh:
-          - 以arduino以及linux打造出一個室內的小農場,可以監控空氣濕度溫度,
-            光源不足的時候自動打開led燈,土壤水分不足的時候會發line通知澆水,
-            並且擁有縮時攝影的功能
+          - 以arduino以及linux打造出一個室內的小農場.
+          - 可以透過系統監控空氣的濕度溫度,土壤的含水量以及照度,並且進行縮時攝影.
+          - 在光源不足的時候自動打開led燈,土壤水分不足的時候會發line通知澆水.
         en:
 
     - summary:
@@ -182,34 +182,11 @@ attainments:
         en: Uitox
       description:
         zh:
-          - 獨立一人完成架構的規劃,專案的管理,實驗的設計,數據的視覺化以及在第一版中完全不倚靠任何函式庫的情況下
-            實作了association rule以及k-means兩個演算法,並且在10 folds cross validation中達到了21%的命中率
-            (上述扣除通用電商中衛生紙等常見日用品,若不扣除則命中率為29%),並且在後續的版本中開始導入spark,進行分散式的運算,
-            以及利用裡頭ALS(alternative least square)的解法來實作collaborative filtering的演算法來改良原本的推薦系統,
-            後面還有陸續規劃click rate以及轉換率的數據回收機制.
-        en:
+          - 獨立一人完成架構的規劃,專案的管理,實驗的設計,數據的視覺化以及在不倚靠任何函式庫的情況下實作了AR(Association Rule)以及k-means兩個演算法.
+          - 該演算法AR在10 folds cross validation中達到了21%的命中率(扣除通用電商中衛生紙等常見日用品,若不扣除則命中率為29%).
+          - 另外又設計了數據回收機制以統計Click-through rate(CTR)以及訂單轉換率,其中CTR平均為9.5%,最高為11%.
+          - 在後續的版本中開始導入spark,利用裡頭ALS(alternative least square)的解法來實作collaborative filtering改良原本的推薦系統.
 
-    - summary:
-        zh: 專案管理
-        en:
-      company:
-        zh: Uitox
-        en: Uitox
-      description:
-        zh:
-          - 帶領一個六人團隊(包含自己),完成一個後端平台,其中包含架構設計,規格的討論,工作的分配,以及每人進度的掌握,
-            還有協助解決每個人技術上遭遇的問題,最後在上海進行兩個月的技術交接.
-        en:
-
-    - summary:
-        zh: 開發環境以及線上環境的的建立以及維護
-        en:
-      company:
-        zh: Uitox
-        en: Uitox
-      description:
-        zh:
-          - 管理本地端機房以及GCP(Google Cloud Platform)上的VM以及docker container,其中包含了自動化佈署,以及效能的調教.
         en:
 
     - summary:
@@ -224,6 +201,30 @@ attainments:
           - 此程式沒有使用system call之外的任何library,自行實作了ping(icmp scan), traceroute, syn scan, syn/ack scan, fin scan 等功能,
             並且還擁有一個實作了部分http protocol的web server以及json parser
           - https://github.com/ireullin/NetworkScanner
+        en:
+        
+    - summary:
+        zh: 專案管理
+        en:
+      company:
+        zh: Uitox
+        en: Uitox
+      description:
+        zh:
+          - 帶領一個六人團隊(包含自己),完成一個後端平台,其中包含架構設計,規格的討論,工作的分配,以及每人進度的掌握.
+          - 其中包含了協助解決每個人技術上遭遇的問題,並且最後在上海進行兩個月的技術交接.
+        en:
+
+    - summary:
+        zh: 開發環境以及線上環境的的建立以及維護
+        en:
+      company:
+        zh: Uitox
+        en: Uitox
+      description:
+        zh:
+          - 管理本地端機房以及GCP(Google Cloud Platform)上的VM以及docker container.
+          - 另外也包含了自動化佈署,以及各機器效能的調教.
         en:
 
     - summary:
@@ -272,7 +273,7 @@ attainments:
       description:
         zh:
           - FIX為新一代的證交所與期交所專線所使用的通訊協定.
-          - 當時國外免費的library只有QuickFIX,但缺點為效能不佳與體積臃腫,並且太多的功能都用不到.
+          - 當時國外免費的library只有QuickFIX,缺點為效能不佳與體積臃腫但太多的功能都用不到.
           - 所以重新實作了一個輕便的新版本,這是當時業界中唯一自己實作的版本.
         en:
 
