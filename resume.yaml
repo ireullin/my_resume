@@ -24,6 +24,7 @@ profile:
 
     - 該推薦系統包括了架構的規劃，專案的管理，實驗的設計，數據的視覺化以及在第一版中完全不倚靠任何函式庫的情況下實作了association rule以及k-means兩個演算法，並且在10 folds cross validation中達到了21%的命中率(上述扣除通用電商中衛生紙等常見日用品，若不扣除則命中率為29%)。
 
+    - 該推薦系統上線後再加入了數據回收的機制，透過此機制得知該系統擁有平均9.5%，最高11%的CTR。
     - 並且在接下來的版本中開始導入了spark，進行分散式的運算，以及利用裡頭ALS(alternative least square)的解法來實作collaborative filtering的演算法來改良原本的推薦系統。
 
     - 我喜歡做事明快，不拖泥帶水的風格，也盡量要求自己保持對事物的好奇心，以及積極的行動力和應變能力，因此我非常享受並珍惜在一個高效的團隊裡工作的經驗，我重視團隊合作，希望個人跟團隊可以一同成長，互相激盪。
@@ -165,20 +166,21 @@ attainments:
   items:
     - summary:
         zh: 機器人農場
-        en: robotic farm
+        en: A robotic farm.
       company:
-        zh: side project
-        en: side project
+        zh: side projects
+        en: side projects
       description:
         zh:
           - 以arduino以及linux打造出一個室內的小農場。
           - 可以透過系統監控空氣的濕度溫度，土壤的含水量以及照度，並且進行縮時攝影。
           - 在光源不足的時候自動打開led燈，土壤水分不足的時候會發line通知澆水。
         en:
+          -
 
     - summary:
         zh: 推薦系統
-        en:
+        en: A recommendation system.
       company:
         zh: Uitox
         en: Uitox
@@ -190,13 +192,14 @@ attainments:
           - 在後續的版本中開始導入spark，利用裡頭ALS(alternative least square)的解法來實作collaborative filtering改良原本的推薦系統。
 
         en:
+          -
 
     - summary:
         zh: 網路掃描軟體 NetworkScanner
-        en:
+        en: A network scanner.
       company:
-        zh: side project
-        en: side project
+        zh: side projects
+        en: side projects
       description:
         zh:
           - 以練習為目的所開發的程式，可以大範圍掃描某個網段中所有機器工作中的port以及推斷其作業系統，並透過一個web介面加以控制。
@@ -204,10 +207,12 @@ attainments:
             並且還擁有一個實作了部分http protocol的web server以及json parser
           - https://github.com/ireullin/NetworkScanner
         en:
+          -
+          - https://github.com/ireullin/NetworkScanner
         
     - summary:
         zh: 專案管理
-        en:
+        en: Project management.
       company:
         zh: Uitox
         en: Uitox
@@ -216,10 +221,11 @@ attainments:
           - 帶領一個六人團隊(包含自己)，完成一個後端平台，其中包含架構設計，規格的討論，工作的分配，以及每人進度的掌握。
           - 其中包含了協助解決每個人技術上遭遇的問題，並且最後在上海進行兩個月的技術交接。
         en:
+          -
 
     - summary:
         zh: 開發環境以及線上環境的的建立以及維護
-        en:
+        en: Built & maintained environments of procuction & development.
       company:
         zh: Uitox
         en: Uitox
@@ -228,34 +234,37 @@ attainments:
           - 管理本地端機房以及GCP(Google Cloud Platform)上的VM以及docker container。
           - 另外也包含了自動化佈署，以及各機器效能的調教。
         en:
+          -
 
     - summary:
         zh: ERP系統
-        en: systems of ERP
+        en: Systems of ERP
       company:
-        zh: side project
-        en: side project
+        zh: side projects
+        en: side projects
       description:
         zh:
           - 私人承接的外包案。
           - 案主分別是一個室內設計工作室以及印刷廠，分別使用php以及Ruby on Rails協助建立一套表單系統。
         en:
+          -
 
     - summary:
         zh: MyClinic App
-        en:
+        en: MyClinic App
       company:
-        zh: side project
-        en: side project
+        zh: side projects
+        en: side projects
       description:
         zh:
           - 與一群朋友私下成立的專案。
           - 主要是在ios上面提供一個搜尋醫療資源的APP，我負責的是後端的部分，採用的是Ruby on Rails。
         en:
+          -
 
     - summary:
         zh: 重新實作TMP協定，並且建立一個模擬證交所行為的server
-        en:
+        en: Implemented a library of TMP protocol. And make an emulator of server of TWSE.
       company:
         zh: Bull computer
         en: Bull computer
@@ -265,10 +274,11 @@ attainments:
           - 另外透過蒐集證交所各種回覆，逆向工程建立了一個證交所的模擬伺服器，使得公司及客戶不需要額外申請測試線路，節省公司及客戶經費
           - 此模擬證交所行為的server為業界唯一。
         en:
+          -
 
     - summary:
         zh: 實作一個FIX協定的library
-        en:
+        en: Implemented a library of FIX protocol.
       company:
         zh: Bull computer
         en: Bull computer
@@ -278,10 +288,11 @@ attainments:
           - 當時國外免費的library只有QuickFIX，缺點為效能不佳與體積臃腫但太多的功能都用不到。
           - 所以重新實作了一個輕便的新版本，這是當時業界中唯一自己實作的版本。
         en:
+          -
 
     - summary:
         zh: 自動產生程式碼，編譯以及測試
-        en:
+        en: Developed tools for generating, compiling & testing code automatically.
       company:
         zh: Bull computer
         en: Bull computer
@@ -291,11 +302,12 @@ attainments:
           - 目的在減少人為操作上的疏失以及加快開發速度。
           - 最早版本使用python撰寫，後來全部改為ruby。
         en:
+          -
 
 
     - summary:
         zh: 遊戲明星三缺一的程式維護
-        en:
+        en: Maintained a mah-jongg game.
       company:
         zh: 鈊象電子
         en: International Games System CO.
@@ -303,6 +315,7 @@ attainments:
         zh:
           - 主要負責麻將遊戲明星三缺一的client與server端維護與改版。
         en:
+          -
 
     - summary:
         zh: 遊戲後端管理平台的開發
