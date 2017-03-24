@@ -15,17 +15,19 @@ blog: https://dotblogs.com.tw/ireullin
 
 profile:
   zh:
-    - 在職涯的前八年,c++是我最熟悉的語言,我運用他在AIX與Linux中透過SCI(system call interfaces)
-      與IPC(inter-process communication)完成各種components,以利於其他語言可以更簡便的對系統進行操作
-      但仍然保有良好的效能,另外我還透過python與ruby建立了各種測試程式,以確保產品有一定程度的穩定性,
-      並且達到自動化的佈署,減少人為的疏失.
-    - 我個人最大的特色,就是有旺盛的好奇心以及學習的慾望,還有非常積極的行動能力,以及對程式碼的熱愛,
-      承蒙現在公司(Uitox)願意給予機會,還有目前主管以及同事不吝嗇的分享知識與各種學習資源下,
-      開始接觸到了ML(machine learning)的領域,在這段期間我獨立完成了我們公司第一套的推薦系統,
-      其中包括了架構的規劃,專案的管理,實驗的設計,到數據的視覺化以及在第一版中完全不倚靠任何函式庫的情況下
-      實作了association rule以及k-means兩個演算法,並且在10 folds cross validation中達到了21%的命中率
-      (上述扣除通用電商中衛生紙等常見日用品,若不扣除則命中率為29%),並且在後續的版本中開始導入spark,進行分散式的運算,
-      以及利用裡頭ALS(alternative least square)的解法來實作collaborative filtering的演算法來改良原本的推薦系統.
+    - 我是個熱愛學習新事物的人，多年來憑藉著對程式的熱情，不斷積極嘗試新技術。
+  
+    - 在職涯的前八年，c++是我最熟悉的語言，我在AIX與Linux中使用SCI(system call interfaces)與IPC(inter-process communication)的技巧開發各種元件，方便其他語言呼叫，並且保持良好的效能。
+    - 另外我還透過python與ruby建立了各種測試程式，以確保產品有一定程度的穩定性，並且達到自動化的佈署，減少人為的疏失。
+
+    - 承蒙現在公司(Uitox)還有目前主管以及同事不吝嗇的分享知識與各種學習資源下，開始接觸ML(machine learning)的領域，在這段期間我獨立完成了我們公司第一套的推薦系統。
+
+    - 該推薦系統包括了架構的規劃，專案的管理，實驗的設計，數據的視覺化以及在第一版中完全不倚靠任何函式庫的情況下實作了association rule以及k-means兩個演算法，並且在10 folds cross validation中達到了21%的命中率(上述扣除通用電商中衛生紙等常見日用品，若不扣除則命中率為29%)。
+
+    - 並且在接下來的版本中開始導入了spark，進行分散式的運算，以及利用裡頭ALS(alternative least square)的解法來實作collaborative filtering的演算法來改良原本的推薦系統。
+
+    - 我喜歡做事明快，不拖泥帶水的風格，也盡量要求自己保持對事物的好奇心，以及積極的行動力和應變能力，因此我非常享受並珍惜在一個高效的團隊裡工作的經驗，我重視團隊合作，希望個人跟團隊可以一同成長，互相激盪。
+
 
   en:
     -
@@ -169,9 +171,9 @@ attainments:
         en: side project
       description:
         zh:
-          - 以arduino以及linux打造出一個室內的小農場.
-          - 可以透過系統監控空氣的濕度溫度,土壤的含水量以及照度,並且進行縮時攝影.
-          - 在光源不足的時候自動打開led燈,土壤水分不足的時候會發line通知澆水.
+          - 以arduino以及linux打造出一個室內的小農場。
+          - 可以透過系統監控空氣的濕度溫度，土壤的含水量以及照度，並且進行縮時攝影。
+          - 在光源不足的時候自動打開led燈，土壤水分不足的時候會發line通知澆水。
         en:
 
     - summary:
@@ -182,10 +184,10 @@ attainments:
         en: Uitox
       description:
         zh:
-          - 獨立一人完成架構的規劃,專案的管理,實驗的設計,數據的視覺化以及在不倚靠任何函式庫的情況下實作了AR(Association Rule)以及k-means兩個演算法.
-          - 該演算法AR在10 folds cross validation中達到了21%的命中率(扣除通用電商中衛生紙等常見日用品,若不扣除則命中率為29%).
-          - 另外又設計了數據回收機制以統計Click-through rate(CTR)以及訂單轉換率,其中CTR平均為9.5%,最高為11%.
-          - 在後續的版本中開始導入spark,利用裡頭ALS(alternative least square)的解法來實作collaborative filtering改良原本的推薦系統.
+          - 獨立一人完成架構的規劃，專案的管理，實驗的設計，數據的視覺化以及在不倚靠任何函式庫的情況下實作了AR(Association Rule)以及k-means兩個演算法。
+          - 該演算法AR在10 folds cross validation中達到了21%的命中率(扣除通用電商中衛生紙等常見日用品，若不扣除則命中率為29%)。
+          - 另外又設計了數據回收機制以統計Click-through rate(CTR)以及訂單轉換率，其中CTR平均為9.5%，最高為11%。
+          - 在後續的版本中開始導入spark，利用裡頭ALS(alternative least square)的解法來實作collaborative filtering改良原本的推薦系統。
 
         en:
 
@@ -197,8 +199,8 @@ attainments:
         en: side project
       description:
         zh:
-          - 以練習為目的所開發的程式,可以大範圍掃描某個網段中所有機器工作中的port以及推斷其作業系統,並透過一個web介面加以控制.
-          - 此程式沒有使用system call之外的任何library,自行實作了ping(icmp scan), traceroute, syn scan, syn/ack scan, fin scan 等功能,
+          - 以練習為目的所開發的程式，可以大範圍掃描某個網段中所有機器工作中的port以及推斷其作業系統，並透過一個web介面加以控制。
+          - 此程式沒有使用system call之外的任何library，自行實作了ping(icmp scan)， traceroute， syn scan， syn/ack scan， fin scan 等功能，
             並且還擁有一個實作了部分http protocol的web server以及json parser
           - https://github.com/ireullin/NetworkScanner
         en:
@@ -211,8 +213,8 @@ attainments:
         en: Uitox
       description:
         zh:
-          - 帶領一個六人團隊(包含自己),完成一個後端平台,其中包含架構設計,規格的討論,工作的分配,以及每人進度的掌握.
-          - 其中包含了協助解決每個人技術上遭遇的問題,並且最後在上海進行兩個月的技術交接.
+          - 帶領一個六人團隊(包含自己)，完成一個後端平台，其中包含架構設計，規格的討論，工作的分配，以及每人進度的掌握。
+          - 其中包含了協助解決每個人技術上遭遇的問題，並且最後在上海進行兩個月的技術交接。
         en:
 
     - summary:
@@ -223,8 +225,8 @@ attainments:
         en: Uitox
       description:
         zh:
-          - 管理本地端機房以及GCP(Google Cloud Platform)上的VM以及docker container.
-          - 另外也包含了自動化佈署,以及各機器效能的調教.
+          - 管理本地端機房以及GCP(Google Cloud Platform)上的VM以及docker container。
+          - 另外也包含了自動化佈署，以及各機器效能的調教。
         en:
 
     - summary:
@@ -235,8 +237,8 @@ attainments:
         en: side project
       description:
         zh:
-          - 私人承接的外包案.
-          - 案主分別是一個室內設計工作室以及印刷廠,分別使用php以及Ruby on Rails協助建立一套表單系統.
+          - 私人承接的外包案。
+          - 案主分別是一個室內設計工作室以及印刷廠，分別使用php以及Ruby on Rails協助建立一套表單系統。
         en:
 
     - summary:
@@ -247,21 +249,21 @@ attainments:
         en: side project
       description:
         zh:
-          - 與一群朋友私下成立的專案.
-          - 主要是在ios上面提供一個搜尋醫療資源的APP,我負責的是後端的部分,採用的是Ruby on Rails.
+          - 與一群朋友私下成立的專案。
+          - 主要是在ios上面提供一個搜尋醫療資源的APP，我負責的是後端的部分，採用的是Ruby on Rails。
         en:
 
     - summary:
-        zh: 重新實作TMP協定,並且建立一個模擬證交所行為的server
+        zh: 重新實作TMP協定，並且建立一個模擬證交所行為的server
         en:
       company:
         zh: Bull computer
         en: Bull computer
       description:
         zh:
-          - TMP協定為證交所股票與期貨交易所使用的協定,我重新由網路協定中的第四層實作了整個協定,並且調整了socket的參數使得整體處理速度與原本的相較下提升3倍.
-          - 另外透過蒐集證交所各種回覆,逆向工程建立了一個證交所的模擬伺服器,使得公司及客戶不需要額外申請測試線路,節省公司及客戶經費
-          - 此模擬證交所行為的server為業界唯一.
+          - TMP協定為證交所股票與期貨交易所使用的協定，我重新由網路協定中的第四層實作了整個協定，並且調整了socket的參數使得整體處理速度與原本的相較下提升3倍。
+          - 另外透過蒐集證交所各種回覆，逆向工程建立了一個證交所的模擬伺服器，使得公司及客戶不需要額外申請測試線路，節省公司及客戶經費
+          - 此模擬證交所行為的server為業界唯一。
         en:
 
     - summary:
@@ -272,22 +274,22 @@ attainments:
         en: Bull computer
       description:
         zh:
-          - FIX為新一代的證交所與期交所專線所使用的通訊協定.
-          - 當時國外免費的library只有QuickFIX,缺點為效能不佳與體積臃腫但太多的功能都用不到.
-          - 所以重新實作了一個輕便的新版本,這是當時業界中唯一自己實作的版本.
+          - FIX為新一代的證交所與期交所專線所使用的通訊協定。
+          - 當時國外免費的library只有QuickFIX，缺點為效能不佳與體積臃腫但太多的功能都用不到。
+          - 所以重新實作了一個輕便的新版本，這是當時業界中唯一自己實作的版本。
         en:
 
     - summary:
-        zh: 自動產生程式碼,編譯以及測試
+        zh: 自動產生程式碼，編譯以及測試
         en:
       company:
         zh: Bull computer
         en: Bull computer
       description:
         zh:
-          - 透過讀取COBOL的程式碼轉為c++並根據設定載入相應的library然後自動編譯以及測試.
-          - 目的在減少人為操作上的疏失以及加快開發速度.
-          - 最早版本使用python撰寫,後來全部改為ruby.
+          - 透過讀取COBOL的程式碼轉為c++並根據設定載入相應的library然後自動編譯以及測試。
+          - 目的在減少人為操作上的疏失以及加快開發速度。
+          - 最早版本使用python撰寫，後來全部改為ruby。
         en:
 
 
@@ -299,18 +301,19 @@ attainments:
         en: International Games System CO.
       description:
         zh:
-          - 主要負責麻將遊戲明星三缺一的client與server端維護與改版.
+          - 主要負責麻將遊戲明星三缺一的client與server端維護與改版。
         en:
 
     - summary:
         zh: 遊戲後端管理平台的開發
-        en:
+        en: Developed a backend platform for managing games.
       company:
         zh: 鈊象電子
         en: International Games System CO.
       description:
         zh:
-          - Game tower系列遊戲(明星三缺一為其中一款)後端管理平台的開發.
-          - 主要提供遊戲參數設定,牌局重現機制(sourcing log),以及提供報表.
+          - Game tower系列遊戲(明星三缺一為其中一款)後端管理平台的開發。
+          - 主要提供遊戲參數設定，牌局重現機制(sourcing log)，以及提供報表。
         en:
+          - 
 
