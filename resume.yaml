@@ -164,19 +164,25 @@ attainments:
     en:
 
   items:
+    
     - summary:
-        zh: 機器人農場
-        en: A robotic farm.
+        zh: ML libraries
+        en: ML libraries
       company:
-        zh: side projects
-        en: side projects
+        zh: Uitox
+        en: Uitox
       description:
         zh:
-          - 以arduino以及linux打造出一個室內的小農場。
-          - 可以透過系統監控空氣的濕度溫度，土壤的含水量以及照度，並且進行縮時攝影。
-          - 在光源不足的時候自動打開led燈，土壤水分不足的時候會發line通知澆水。
+          - 我認為了解一個演算法最好的方式就是實作它。
+          - 所以在專案前期的實驗階段，只要時間上還寬裕我都會自己先實作一次演算法，以幫助自己了解整個算法的細節。
+          - 特別在一次使用者消費習慣的分群中，因為使用的是自己實作過的k-means套件，所以很快的能發現無法乾淨分群的原因在於質心距離的計算方式上。
+          - 所以特別將原本的Euclidean Distance改為Manhattan Distance，成功的分離出不同的消費者族群。
+          - https://github.com/ireullin/decision-tree
+          - https://github.com/ireullin/kmeans-crystal
+
         en:
           -
+
 
     - summary:
         zh: 推薦系統
@@ -203,13 +209,41 @@ attainments:
       description:
         zh:
           - 以練習為目的所開發的程式，可以大範圍掃描某個網段中所有機器工作中的port以及推斷其作業系統，並透過一個web介面加以控制。
-          - 此程式沒有使用system call之外的任何library，自行實作了ping(icmp scan)， traceroute， syn scan， syn/ack scan， fin scan 等功能，
+          - 此程式沒有使用system call之外的任何library，自行實作了ping(icmp scan)，traceroute， syn scan， syn/ack scan， fin scan 等功能，
             並且還擁有一個實作了部分http protocol的web server以及json parser
           - https://github.com/ireullin/NetworkScanner
         en:
           -
           - https://github.com/ireullin/NetworkScanner
         
+    - summary:
+        zh: 使用者搜尋關鍵字即時偵測
+        en: 
+      company:
+        zh: Uitox
+        en: Uitox
+      description:
+        zh:
+          - 即時的反應使用者在本公司的搜尋引擎上搜尋的趨勢。
+          - 並透過line或telegram等通訊軟體即時告知各相關人員，以及可以從中分析公司接下來進貨的方向。
+
+        en:
+          -
+
+    - summary:
+        zh: 機器人農場
+        en: A robotic farm.
+      company:
+        zh: side projects
+        en: side projects
+      description:
+        zh:
+          - 以arduino以及linux打造出一個室內的小農場。
+          - 可以透過系統監控空氣的濕度溫度，土壤的含水量以及照度，並且進行縮時攝影。
+          - 在光源不足的時候自動打開led燈，土壤水分不足的時候會發line通知澆水。
+        en:
+          -
+
     - summary:
         zh: 專案管理
         en: Project management.
