@@ -124,6 +124,7 @@ special_experiences_and_knowledge:
   - TCP/IP with raw socket
   - Inter-process communication
   - Docker
+  - Google cloud platform
 
 companies:
   - name:
@@ -166,8 +167,8 @@ attainments:
   items:
     
     - summary:
-        zh: ML libraries
-        en: ML libraries
+        zh: Machine Learning libraries
+        en: Machine Learning libraries
       company:
         zh: Uitox
         en: Uitox
@@ -176,7 +177,7 @@ attainments:
           - 我認為了解一個演算法最好的方式就是實作它。
           - 所以在專案前期的實驗階段，只要時間上還寬裕我都會自己先實作一次演算法，以幫助自己了解整個算法的細節。
           - 特別在一次使用者消費習慣的分群中，因為使用的是自己實作過的k-means套件，所以很快的能發現無法乾淨分群的原因在於質心距離的計算方式上。
-          - 所以特別將原本的Euclidean Distance改為Manhattan Distance，成功的分離出不同的消費者族群。
+          - 所以將原本的Euclidean Distance改為Manhattan Distance，成功的分離出不同的消費者族群。
           - https://github.com/ireullin/decision-tree
           - https://github.com/ireullin/kmeans-crystal
 
