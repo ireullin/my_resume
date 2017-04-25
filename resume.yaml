@@ -16,7 +16,7 @@ blog: https://dotblogs.com.tw/ireullin
 profile:
   zh:
     - 我是個熱愛學習新事物的人，多年來憑藉著對程式的熱情，不斷積極嘗試新技術。
-  
+
     - 在職涯的前八年，c++是我最熟悉的語言，我在AIX與Linux中使用SCI(system call interfaces)與IPC(inter-process communication)的技巧開發各種元件，方便其他語言呼叫，並且保持良好的效能。
     - 另外我還透過python與ruby建立了各種測試程式，以確保產品有一定程度的穩定性，並且達到自動化的佈署，減少人為的疏失。
 
@@ -157,7 +157,7 @@ companies:
     position:
       zh: 工程師
       en: Software engineer
-    duration: 2010/11 – 2013/12
+    duration: 2004/02 – 2006/11
 
 attainments:
   comment:
@@ -165,7 +165,7 @@ attainments:
     en:
 
   items:
-    
+
     - summary:
         zh: Machine Learning libraries
         en: Machine Learning libraries
@@ -216,10 +216,10 @@ attainments:
         en:
           -
           - https://github.com/ireullin/NetworkScanner
-        
+
     - summary:
         zh: 使用者搜尋關鍵字即時偵測
-        en: 
+        en:
       company:
         zh: Uitox
         en: Uitox
@@ -363,5 +363,5 @@ attainments:
           - Game tower系列遊戲(明星三缺一為其中一款)後端管理平台的開發。
           - 主要提供遊戲參數設定，牌局重現機制(sourcing log)，以及提供報表。
         en:
-          - 
+          -
 
