@@ -70,25 +70,26 @@ licenses:
   - name: BerkeleyX CS120x. Distributed Machine Learning with Apache Spark
 
 programs:
-  excellent:
+  -
     - C++ 98
+  -
+    - Ruby
     - Java
     - scala
     - C#
-    - Ruby
     - Python
-  good:
+  -
     - Pure c
     - Java script
     - Php
-  general:
+  -
     - Perl
     - R
     - Octave
     - COBOL
 
 libraries:
-  - STD
+  - C++ STD
   - Ruby on Rails
   - spark
   - kafka
@@ -115,7 +116,7 @@ vsersion_controlls:
   - SourceSafe
 
 os:
-  - AIX
+  - Unix(AIX)
   - Linux(ubuntu, centos)
   - Windows
 
