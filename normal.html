@@ -123,48 +123,39 @@
     <div class="container-fluid text-center">
       <h1>Companies</h1>
     </div>
-    
-
     <div class="row">
         <div id="company0"></div>
         <div id="company1"></div>
         <div id="company2"></div>
         <div id="company3"></div>
     </div>
-    
-
     <div class="pagebreak"></div>
+
 
     <!-- attainments -->
     <div class="container-fluid text-center">
       <h1>Attainments</h1>
     </div>
-
-
     <div class="row">
         <div id="attainment0"></div>
         <div id="attainment1"></div>
         <div id="attainment2"></div>
     </div>
-
     <div class="row">
         <div id="attainment3"></div>
         <div id="attainment4"></div>
         <div id="attainment5"></div>
     </div>
-
     <div class="row">
         <div id="attainment6"></div>
         <div id="attainment7"></div>
         <div id="attainment8"></div>
     </div>
-
     <div class="row">
         <div id="attainment9"></div>
         <div id="attainment10"></div>
         <div id="attainment11"></div>
     </div>
-
     <div class="row">
         <div id="attainment12"></div>
         <div id="attainment13"></div>
@@ -230,7 +221,7 @@ function ready(){
 
  function onClickOpenFile(){
     
-    $('#btn_openfile').prop('display','none');
+    $('#btn_openfile').hide();
     
     var file = event.target.files[0];
     if (!file) {

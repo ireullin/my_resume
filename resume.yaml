@@ -1,4 +1,3 @@
-
 name:
   zh: 林建亨
   en: Chien-Heng Lin
@@ -20,7 +19,7 @@ profile:
     - 在職涯的前八年，c++是我最熟悉的語言，我在AIX與Linux中使用SCI(system call interfaces)與IPC(inter-process communication)的技巧開發各種元件，方便其他語言呼叫，並且保持良好的效能。
     - 另外我還透過python與ruby建立了各種測試程式，以確保產品有一定程度的穩定性，並且達到自動化的佈署，減少人為的疏失。
 
-    - 承蒙現在公司(Uitox)還有目前主管以及同事不吝嗇的分享知識與各種學習資源下，開始接觸ML(machine learning)的領域，在這段期間我獨立完成了我們公司第一套的推薦系統。
+    - 承蒙現在公司還有目前主管以及同事不吝嗇的分享知識與各種學習資源下，開始接觸ML(machine learning)的領域，在這段期間我獨立完成了我們公司第一套的推薦系統。
 
     - 該推薦系統包括了架構的規劃，專案的管理，實驗的設計，數據的視覺化以及在第一版中完全不倚靠任何函式庫的情況下實作了association rule以及k-means兩個演算法，並且在10 folds cross validation中達到了21%的命中率(上述扣除通用電商中衛生紙等常見日用品，若不扣除則命中率為29%)。
 
@@ -131,8 +130,8 @@ special_experiences_and_knowledge:
 
 companies:
   - name:
-      zh: Uitox
-      en: Uitox
+      zh: current company
+      en: current company
     position:
       zh: 資深工程師
       en: Senior software engineer
@@ -185,14 +184,14 @@ attainments:
           - https://github.com/ireullin/linear-regressions
           - https://github.com/ireullin/principal-components-analysis
         en:
-          -
+
 
     - summary:
         zh: 推薦系統
         en: A recommendation system.
       company:
-        zh: Uitox
-        en: Uitox
+        zh: current company
+        en: current company
       description:
         zh:
           - 獨立一人完成架構的規劃，專案的管理，實驗的設計，數據的視覺化以及在不倚靠任何函式庫的情況下實作了AR(Association Rule)以及k-means兩個演算法。
@@ -200,7 +199,7 @@ attainments:
           - 另外又設計了數據回收機制以統計Click-through rate(CTR)以及訂單轉換率，其中CTR平均為9.5%，最高為11%。
           - 在後續的版本中開始導入spark，利用裡頭ALS(alternative least square)的解法來實作collaborative filtering改良原本的推薦系統。
         en:
-          -
+
 
     - summary:
         zh: 網路掃描軟體 NetworkScanner
@@ -221,15 +220,14 @@ attainments:
         zh: 使用者搜尋關鍵字即時偵測
         en:
       company:
-        zh: Uitox
-        en: Uitox
+        zh: current company
+        en: current company
       description:
         zh:
           - 即時的反應使用者在本公司的搜尋引擎上搜尋的趨勢。
           - 並透過line或telegram等通訊軟體即時告知各相關人員，以及可以從中分析公司接下來進貨的方向。
 
         en:
-          -
 
     - summary:
         zh: 機器人農場
@@ -243,33 +241,30 @@ attainments:
           - 可以透過系統監控空氣的濕度溫度，土壤的含水量以及照度，並且進行縮時攝影。
           - 在光源不足的時候自動打開led燈，土壤水分不足的時候會發line通知澆水。
         en:
-          -
 
     - summary:
         zh: 專案管理
         en: Project management.
       company:
-        zh: Uitox
-        en: Uitox
+        zh: current company
+        en: current company
       description:
         zh:
           - 帶領一個六人團隊(包含自己)，完成一個後端平台，其中包含架構設計，規格的討論，工作的分配，以及每人進度的掌握。
           - 其中包含了協助解決每個人技術上遭遇的問題，並且最後在上海進行兩個月的技術交接。
         en:
-          -
 
     - summary:
         zh: 開發環境以及線上環境的的建立以及維護
         en: Built & maintained environments of procuction & development.
       company:
-        zh: Uitox
-        en: Uitox
+        zh: current company
+        en: current company
       description:
         zh:
           - 管理本地端機房以及GCP(Google Cloud Platform)上的VM以及docker container。
           - 另外也包含了自動化佈署，以及各機器效能的調教。
         en:
-          -
 
     - summary:
         zh: ERP系統
@@ -280,9 +275,8 @@ attainments:
       description:
         zh:
           - 私人承接的外包案。
-          - 案主分別是一個室內設計工作室以及印刷廠，分別使用php以及Ruby on Rails協助建立一套表單系統。
+          - 案主分別是一個室內設計工作室以及印刷廠，使用Ruby on Rails協助建立一套表單系統。
         en:
-          -
 
     - summary:
         zh: MyClinic App
@@ -295,7 +289,6 @@ attainments:
           - 與一群朋友私下成立的專案。
           - 主要是在ios上面提供一個搜尋醫療資源的APP，我負責的是後端的部分，採用的是Ruby on Rails。
         en:
-          -
 
     - summary:
         zh: 重新實作TMP協定，並且建立一個模擬證交所行為的server
@@ -309,7 +302,6 @@ attainments:
           - 另外透過蒐集證交所各種回覆，逆向工程建立了一個證交所的模擬伺服器，使得公司及客戶不需要額外申請測試線路，節省公司及客戶經費
           - 此模擬證交所行為的server為業界唯一。
         en:
-          -
 
     - summary:
         zh: 實作一個FIX協定的library
@@ -323,7 +315,6 @@ attainments:
           - 當時國外免費的library只有QuickFIX，缺點為效能不佳與體積臃腫但太多的功能都用不到。
           - 所以重新實作了一個輕便的新版本，這是當時業界中唯一自己實作的版本。
         en:
-          -
 
     - summary:
         zh: 自動產生程式碼，編譯以及測試
@@ -337,8 +328,6 @@ attainments:
           - 目的在減少人為操作上的疏失以及加快開發速度。
           - 最早版本使用python撰寫，後來全部改為ruby。
         en:
-          -
-
 
     - summary:
         zh: 遊戲明星三缺一的程式維護
@@ -350,7 +339,6 @@ attainments:
         zh:
           - 主要負責麻將遊戲明星三缺一的client與server端維護與改版。
         en:
-          -
 
     - summary:
         zh: 遊戲後端管理平台的開發
@@ -363,5 +351,4 @@ attainments:
           - Game tower系列遊戲(明星三缺一為其中一款)後端管理平台的開發。
           - 主要提供遊戲參數設定，牌局重現機制(sourcing log)，以及提供報表。
         en:
-          -
 
