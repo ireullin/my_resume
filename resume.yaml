@@ -64,25 +64,29 @@ licenses:
     url: https://s3.amazonaws.com/verify.edx.org/downloads/bea2cc236ac848e0a07544f09e4cf06f/Certificate.pdf
 
   - name: BerkeleyX CS105x. Introduction to Apache Spark
+    url:
 
   - name: BerkeleyX CS110x. Big Data Analysis with Apache Spark
+    url:
 
   - name: BerkeleyX CS120x. Distributed Machine Learning with Apache Spark
+    url:
 
 programs:
-  -
+  excellent:
     - C++ 98
-  -
-    - Ruby
+  good:
     - Java
-    - scala
-    - C#
+    - Kotlin
+    - Scala
+    - Ruby
     - Python
-  -
+  general:
     - Pure c
+    - C#
     - Java script
     - Php
-  -
+  used:
     - Perl
     - R
     - Octave
@@ -93,11 +97,8 @@ libraries:
   - Ruby on Rails
   - spark
   - kafka
-  - akka
   - .net freamwork
   - jQuery
-  - gearman
-  - codeigniter
   - MFC
   - QuickFIX
 
@@ -109,6 +110,7 @@ databases:
   - MySQL
   - PostgreSQL
   - Oracle
+  - Cassandra
 
 vsersion_controlls:
   - Git
@@ -166,13 +168,12 @@ attainments:
     en:
 
   items:
-
     - summary:
         zh: Machine Learning libraries
         en: Machine Learning libraries
       company:
-        zh: Uitox
-        en: Uitox
+        zh: side projects
+        en: side projects
       description:
         zh:
           - 我認為了解一個演算法最好的方式就是實作它。
@@ -181,10 +182,10 @@ attainments:
           - 所以將原本的Euclidean Distance改為Manhattan Distance，成功的分離出不同的消費者族群。
           - https://github.com/ireullin/decision-tree
           - https://github.com/ireullin/kmeans-crystal
-
+          - https://github.com/ireullin/linear-regressions
+          - https://github.com/ireullin/principal-components-analysis
         en:
           -
-
 
     - summary:
         zh: 推薦系統
@@ -198,7 +199,6 @@ attainments:
           - 該演算法AR在10 folds cross validation中達到了21%的命中率(扣除通用電商中衛生紙等常見日用品，若不扣除則命中率為29%)。
           - 另外又設計了數據回收機制以統計Click-through rate(CTR)以及訂單轉換率，其中CTR平均為9.5%，最高為11%。
           - 在後續的版本中開始導入spark，利用裡頭ALS(alternative least square)的解法來實作collaborative filtering改良原本的推薦系統。
-
         en:
           -
 
@@ -212,10 +212,9 @@ attainments:
         zh:
           - 以練習為目的所開發的程式，可以大範圍掃描某個網段中所有機器工作中的port以及推斷其作業系統，並透過一個web介面加以控制。
           - 此程式沒有使用system call之外的任何library，自行實作了ping(icmp scan)，traceroute， syn scan， syn/ack scan， fin scan 等功能，
-            並且還擁有一個實作了部分http protocol的web server以及json parser
+          - 並且還擁有一個實作了部分http protocol的web server以及json parser
           - https://github.com/ireullin/NetworkScanner
         en:
-          -
           - https://github.com/ireullin/NetworkScanner
 
     - summary:

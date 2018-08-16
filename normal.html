@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>about me</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.bootcss.com/js-yaml/3.11.0/js-yaml.js"></script>
+
+     <!-- vue js -->
+     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.5.1/vue-resource.js"></script>
+ 
+
+    <style type="text/css">
+    .bs-callout {
+        padding: 20px;
+        margin: 20px 0;
+        border: 1px solid #eee;
+        border-left-width: 5px;
+        border-radius: 3px;
+    }
+    .bs-callout h4 {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .bs-callout p:last-child {
+        margin-bottom: 0;
+    }
+    .bs-callout code {
+        border-radius: 3px;
+    }
+    .bs-callout+.bs-callout {
+        margin-top: -5px;
+    }
+    .bs-callout-default {
+        border-left-color: #777;
+    }
+    .bs-callout-default h4 {
+        color: #777;
+    }
+    .bs-callout-primary {
+        border-left-color: #428bca;
+    }
+    .bs-callout-primary h4 {
+        color: #428bca;
+    }
+    .bs-callout-success {
+        border-left-color: #5cb85c;
+    }
+    .bs-callout-success h4 {
+        color: #5cb85c;
+    }
+    .bs-callout-danger {
+        border-left-color: #d9534f;
+    }
+    .bs-callout-danger h4 {
+        color: #d9534f;
+    }
+    .bs-callout-warning {
+        border-left-color: #f0ad4e;
+    }
+    .bs-callout-warning h4 {
+        color: #f0ad4e;
+    }
+    .bs-callout-info {
+        border-left-color: #5bc0de;
+    }
+    .bs-callout-info h4 {
+        color: #5bc0de;
+    }
+
+    .im-centered {
+      margin: auto;
+      max-width: 300px;
+    }
+
+    .pagebreak { page-break-before: always; }
+    </style>
+
+  </head>
+
+  <body>
+  <br>
+
+  <input type="file" name="btn_openfile" id="btn_openfile"/>
+  <div class="pagebreak"></div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-6">
+        <h1 id='username'></h1>
+      </div>
+      <div class="col-xs-6">
+        <br>
+        <dl>
+          <dt>mail:</dt>
+          <dd id="mail"></dd>
+          <dt>phone:</dt>
+          <dd id="phone"></dd>
+          <dt>github:</dt>
+          <dd><a id="github"></a></dd>
+          <dt>blog(unmaintained):</dt>
+          <dd><a id="blog"></a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <div class="container-fluid">
+    <div class="bs-callout bs-callout-default" id="profile">
+    </div>
+
+    <br>
+    <br>
+
+    <!-- companies -->
+    <div class="container-fluid text-center">
+      <h1>Companies</h1>
+    </div>
+    
+
+    <div class="row">
+        <div id="company0"></div>
+        <div id="company1"></div>
+        <div id="company2"></div>
+        <div id="company3"></div>
+    </div>
+    
+
+    <div class="pagebreak"></div>
+
+    <!-- attainments -->
+    <div class="container-fluid text-center">
+      <h1>Attainments</h1>
+    </div>
+
+
+    <div class="row">
+        <div id="attainment0"></div>
+        <div id="attainment1"></div>
+        <div id="attainment2"></div>
+    </div>
+
+    <div class="row">
+        <div id="attainment3"></div>
+        <div id="attainment4"></div>
+        <div id="attainment5"></div>
+    </div>
+
+    <div class="row">
+        <div id="attainment6"></div>
+        <div id="attainment7"></div>
+        <div id="attainment8"></div>
+    </div>
+
+    <div class="row">
+        <div id="attainment9"></div>
+        <div id="attainment10"></div>
+        <div id="attainment11"></div>
+    </div>
+
+    <div class="row">
+        <div id="attainment12"></div>
+        <div id="attainment13"></div>
+        <div id="attainment14"></div>
+    </div>
+
+
+
+
+
+
+    <!-- programming languages -->
+    <div class="container-fluid text-center">
+      <h1>Languages & Skills</h1>
+    </div>
+    <div id="programs"></div>
+
+
+    <div class="row">
+        <div id="skill0"></div>
+        <div id="skill1"></div>
+        <div id="skill2"></div>
+    </div>
+
+    <div class="row">
+        <div id="skill3"></div>
+        <div id="skill4"></div>
+        <div id="skill5"></div>
+    </div>
+
+
+    <div class="pagebreak"></div>
+
+    <div class="container-fluid text-center">
+      <h1>Licenses</h1>
+    </div>
+    <div id="license0"></div>
+    <div id="license1"></div>
+    <div id="license2"></div>
+    <div id="license3"></div>
+    <div id="license4"></div>
+    <div id="license5"></div>
+    <div id="license6"></div>
+
+
+    <div class="container-fluid text-center">
+      <h1>Educations</h1>
+    </div>
+    <div id="education0"></div>
+    <div id="education1"></div>
+
+    
+  </div>
+  </body>
+
+<script language="javascript">
+
+
+$(document).ready(ready);
+function ready(){
+    document.getElementById('btn_openfile').addEventListener('change', onClickOpenFile, false);
+}
+
+ function onClickOpenFile(){
+    
+    $('#btn_openfile').prop('display','none');
+    
+    var file = event.target.files[0];
+    if (!file) {
+        return;
+    }
+    console.log(file);
+
+    var reader = new FileReader();
+    reader.onload = (k)=>{
+        // var filecontent = reader.result;
+        var doc = jsyaml.load(reader.result);
+        console.log(doc);
+        fillData(doc);
+    }
+    reader.readAsText(file);
+}
+
+function fillData(doc){
+    var lang = 'zh';
+
+    $("#username").html(doc['name']['zh']+"'s profile");
+    $("#mail").html(doc['mail']);
+    $("#phone").html(doc['phones']);
+    $("#github").html(doc['github']);
+    $("#blog").html(doc['blog']);
+
+    $("#profile").html( doc["profile"][lang].map((e)=>"<p>"+e+"</p>").join('') );
+
+    doc['companies'].forEach((x,i) => {
+        new Vue({
+            el: '#company'+i,
+            data: {
+                'name': x['name'][lang],
+                'duration': x['duration'],
+                'position': x['position'][lang]
+            },
+            template:[
+                '<div class="col-xs-3" >',
+                '<div class="panel panel-default text-center">',
+                '<h4>{{name}}</h4>',
+                '<p>{{duration}}</p>',
+                '<p>{{position}}</p>',
+                '</div>',
+                '</div>'
+            ].join('')
+        });
+    });
+
+
+    doc['attainments']['items'].forEach((x,i) => {
+        console.log(x);
+        new Vue({
+            el: '#attainment'+i,
+            data: {
+                'summary': x['summary'][lang],
+                'description': x['description'][lang],
+                'company': x['company'][lang]
+            },
+            computed: {
+                desc: function(){
+                    return this.description.map((e)=>"<p>"+e+"</p>").join('');
+                }
+            },
+            template:[
+                '<div class="col-xs-4">',
+                    '<div class="panel panel-default">',
+                        '<div class="panel-heading  text-center">',
+                            '<h4>{{summary}}<br><small>in {{company}}</small></h4>',
+                        '</div>',
+                        '<div class="panel-body" v-html="desc"></div>',
+                    '</div>',
+                '</div>'
+            ].join('')
+        });
+    });
+
+
+    new Vue({
+        el: '#programs',
+        data: {
+            'excellent': doc['programs']['excellent'],
+            'good': doc['programs']['good'],
+            'general': doc['programs']['general'],
+            'used': doc['programs']['used']
+        },
+        template:[
+            '<table class="table table-condensed">',
+                '<thead>',
+                    '<tr>',
+                        '<th>language</th>',
+                        '<th>I really got it</th>',
+                        '<th>To accomplish a project independently</th>',
+                        '<th>I can write them</th>',
+                        '<th>I used to work with them</th>',
+                    '</tr>',
+                '</thead>',
+                '<tbody>',
+                    '<tr v-for="i in excellent">',
+                        '<td>{{i}}</td><td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td><td></td><td></td><td></td>',
+                    '</tr>',
+                    '<tr v-for="i in good">',
+                        '<td>{{i}}</td><td></td><td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td><td></td><td></td>',
+                    '</tr>',
+                    '<tr v-for="i in general">',
+                        '<td>{{i}}</td><td></td><td></td><td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td><td></td>',
+                    '</tr>',
+                    '<tr v-for="i in used">',
+                        '<td>{{i}}</td><td></td><td></td><td></td><td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>',
+                    '</tr>',
+                '</tbody>',
+            '</table>'
+        ].join('')
+    });
+    
+
+    var skills = ['libraries','databases','special_experiences_and_knowledge','os','vsersion_controlls'];
+    skills.forEach((x,i) => {
+        new Vue({
+            el: '#skill'+i,
+            data: {
+                'name': x,
+                'list': doc[x],
+            },
+            template:[
+                '<div class="col-xs-4">',
+                    '<div class="panel panel-default">',
+                        '<div class="panel-heading  text-center" style="min-height: 1000; max-height: 1000;">',
+                            '<h4>{{name}}</h4>',
+                        '</div>',
+                        '<div class="panel-body" style="min-height: 1000; max-height: 1000;">',
+                            '<ul v-for="i in list">',
+                                '{{i}}',
+                            '</ul>',
+                        '</div>',
+                    '</div>',
+                '</div>'
+            ].join('')
+        });
+    });
+
+    doc['licenses'].forEach((x,i) => {
+        new Vue({
+            el: '#license'+i,
+            data: {
+                'name': x['name'],
+                'url': x['url'],
+            },
+            template:[
+                '<div class="bs-callout bs-callout-default">',
+                '<h4>{{name}}</h4>',
+                '<a>{{url}}</a>',
+                '</div>'
+            ].join('')
+        });
+    });
+
+    doc['educations'].forEach((x,i) => {
+        new Vue({
+            el: '#education'+i,
+            data: {
+                'school': x['school'][lang],
+                'department': x['department'][lang],
+                'duration': x['duration'],
+            },
+            template:[
+                '<div class="bs-callout bs-callout-default">',
+                    '<h4>{{school}} <small>{{duration}}</small></h4>',
+                '<p>{{duration}}</p>',
+                '</div>'
+            ].join('')
+        });
+    });
+}
+
+
+
+
+
+
+
+</script>
+
+</html>
