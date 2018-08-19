@@ -14,20 +14,15 @@ blog: https://dotblogs.com.tw/ireullin
 
 profile:
   zh:
-    - 我是個熱愛學習新事物的人，多年來憑藉著對程式的熱情，不斷積極嘗試新技術。
-
+    - 我做事風格明快，不拖泥帶水，對事物保持好奇心以及積極的行動力與應變能力並且熱愛學習新技術。
+    - 另外我非常享受並珍惜在一個高效的團隊裡工作的經驗，我重視團隊合作，希望個人跟團隊可以一同成長，互相激盪。
+    
     - 在職涯的前八年，c++是我最熟悉的語言，我在AIX與Linux中使用SCI(system call interfaces)與IPC(inter-process communication)的技巧開發各種元件，方便其他語言呼叫，並且保持良好的效能。
     - 另外我還透過python與ruby建立了各種測試程式，以確保產品有一定程度的穩定性，並且達到自動化的佈署，減少人為的疏失。
 
-    - 承蒙現在公司還有目前主管以及同事不吝嗇的分享知識與各種學習資源下，開始接觸ML(machine learning)的領域，在這段期間我獨立完成了我們公司第一套的推薦系統。
-
-    - 該推薦系統包括了架構的規劃，專案的管理，實驗的設計，數據的視覺化以及在第一版中完全不倚靠任何函式庫的情況下實作了association rule以及k-means兩個演算法，並且在10 folds cross validation中達到了21%的命中率(上述扣除通用電商中衛生紙等常見日用品，若不扣除則命中率為29%)。
-
-    - 該推薦系統上線後再加入了數據回收的機制，透過此機制得知該系統擁有平均9.5%，最高11%的CTR。
-    - 並且在接下來的版本中開始導入了spark，進行分散式的運算，以及利用裡頭ALS(alternative least square)的解法來實作collaborative filtering的演算法來改良原本的推薦系統。
-
-    - 我喜歡做事明快，不拖泥帶水的風格，也盡量要求自己保持對事物的好奇心，以及積極的行動力和應變能力，因此我非常享受並珍惜在一個高效的團隊裡工作的經驗，我重視團隊合作，希望個人跟團隊可以一同成長，互相激盪。
-
+    - 在現在的公司我開始使用java做為主要語言，而且也積極嘗試JVM上其他的新語言，
+    - 承蒙主管以及同事不吝嗇的分享知識與各種學習資源下我開始接觸了ML(machine learning)，並且藉由過往的程式經驗將演算法成功的整合到了系統之中，
+    - 使得演算法不只是理論而有機會可以跟實務結合，而這結果也回饋給了公司，使得公司的人力可以更有效率的應用，並且減少人為的失誤的機率。
 
   en:
     -
@@ -214,6 +209,19 @@ attainments:
           - 另外又設計了數據回收機制以統計Click-through rate(CTR)以及訂單轉換率，其中CTR平均為9.5%，最高為11%。
           - 在後續的版本中開始導入spark，利用裡頭ALS(alternative least square)的解法來實作collaborative filtering改良原本的推薦系統。
         en:
+
+    - display: true
+      summary:
+        zh: 圖形辨識系統
+        en: 
+      company:
+        zh: current company
+        en: current company
+      description:
+        zh:
+          - 使用neural network中特化的cnn算法進行圖像的辨識。
+          - 給定兩張圖片，藉由演算法去判斷是同一件物品的機率有多高，正確率為78%。
+        en:    
 
     - display: true
       summary:
