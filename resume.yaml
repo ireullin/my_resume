@@ -135,6 +135,9 @@ companies:
     position:
       zh: 資深工程師
       en: Senior software engineer
+    description:
+      zh: 電商  
+      en:   
     duration: 2014/1 – now
 
   - name:
@@ -143,6 +146,9 @@ companies:
     position:
       zh: 資深工程師
       en: Senior software engineer
+    description:
+      zh: unix(IBM AIX)作業系統代理商
+      en:    
     duration: 2010/11 – 2013/12
 
   - name:
@@ -151,6 +157,9 @@ companies:
     position:
       zh: 工程師
       en: Software engineer
+    description:
+      zh: 大型機台 博弈 線上遊戲 
+      en:  
     duration: 2006/11 – 2010/5
 
   - name:
@@ -159,6 +168,9 @@ companies:
     position:
       zh: 工程師
       en: Software engineer
+    description:
+      zh: 金融保險業  
+      en: 金融保險業    
     duration: 2004/02 – 2006/11
 
 attainments:
@@ -167,18 +179,20 @@ attainments:
     en:
 
   items:
-    - summary:
-        zh: Machine Learning libraries
-        en: Machine Learning libraries
+    - display: true
+      summary:
+        zh: Machine Learning Libraries
+        en: Machine Learning Libraries
       company:
         zh: side projects
         en: side projects
       description:
         zh:
-          - 我認為了解一個演算法最好的方式就是實作它。
+          - 我認為了解一個演算法最好的方式就是實作一次。
           - 所以在專案前期的實驗階段，只要時間上還寬裕我都會自己先實作一次演算法，以幫助自己了解整個算法的細節。
           - 特別在一次使用者消費習慣的分群中，因為使用的是自己實作過的k-means套件，所以很快的能發現無法乾淨分群的原因在於質心距離的計算方式上。
           - 所以將原本的Euclidean Distance改為Manhattan Distance，成功的分離出不同的消費者族群。
+          - 另外若該語言也剛好缺乏此方面的套件庫的話，我也很樂意貢獻出去。
           - https://github.com/ireullin/decision-tree
           - https://github.com/ireullin/kmeans-crystal
           - https://github.com/ireullin/linear-regressions
@@ -186,7 +200,8 @@ attainments:
         en:
 
 
-    - summary:
+    - display: true
+      summary:
         zh: 推薦系統
         en: A recommendation system.
       company:
@@ -200,8 +215,58 @@ attainments:
           - 在後續的版本中開始導入spark，利用裡頭ALS(alternative least square)的解法來實作collaborative filtering改良原本的推薦系統。
         en:
 
+    - display: true
+      summary:
+        zh: 自動比價系統
+        en:
+      company:
+        zh: current company
+        en: current company
+      description:
+        zh:
+          - 我們的自動比價系統可以每天將我們的所有商品與目前四大通用電商進行比價。
+          - 我在其中負責核心演算法的撰寫，例如由商品資料中歸納出型號(電器部分)或者是關鍵字，再藉由網路爬蟲去各家電商搜尋更新資訊。
+          - 另外也參與了該系統其他部分的架構設計與規劃。
+        en:  
 
-    - summary:
+    - display: true
+      summary:
+        zh: 商品自動分類
+        en:
+      company:
+        zh: current company
+        en: current company
+      description:
+        zh: 
+          - 透過商品資料訓練出一個模型，當有新商品要上架時，會透過該新商品的資料進行預測並自動進行分類。
+          - 此系統提供三個可能的分類預測，第一優先選項命中率為78%，
+          - 前兩的選項的命中率為86%，前三選項的命中率為90%。
+        en:  
+
+    - display: true
+      summary:
+        zh: also buy system
+        en:
+      company:
+        zh: current company
+        en: current company
+      description:
+        zh: 透過AR算法以及其他content base的算法(LCS, TFIDF etc.)混搭，完成一個also buy系統後台
+        en:  
+
+    - display: true
+      summary:
+        zh: bin packing
+        en:
+      company:
+        zh: current company
+        en: current company
+      description:
+        zh: 優化出貨時裝箱的空間利用率
+        en:      
+
+    - display: true
+      summary:
         zh: 網路掃描軟體 NetworkScanner
         en: A network scanner.
       company:
@@ -216,7 +281,8 @@ attainments:
         en:
           - https://github.com/ireullin/NetworkScanner
 
-    - summary:
+    - display: true
+      summary:
         zh: 使用者搜尋關鍵字即時偵測
         en:
       company:
@@ -226,10 +292,10 @@ attainments:
         zh:
           - 即時的反應使用者在本公司的搜尋引擎上搜尋的趨勢。
           - 並透過line或telegram等通訊軟體即時告知各相關人員，以及可以從中分析公司接下來進貨的方向。
-
         en:
 
-    - summary:
+    - display: true
+      summary:
         zh: 機器人農場
         en: A robotic farm.
       company:
@@ -242,7 +308,8 @@ attainments:
           - 在光源不足的時候自動打開led燈，土壤水分不足的時候會發line通知澆水。
         en:
 
-    - summary:
+    - display: true
+      summary:
         zh: 專案管理
         en: Project management.
       company:
@@ -254,7 +321,8 @@ attainments:
           - 其中包含了協助解決每個人技術上遭遇的問題，並且最後在上海進行兩個月的技術交接。
         en:
 
-    - summary:
+    - display: true
+      summary:
         zh: 開發環境以及線上環境的的建立以及維護
         en: Built & maintained environments of procuction & development.
       company:
@@ -266,7 +334,8 @@ attainments:
           - 另外也包含了自動化佈署，以及各機器效能的調教。
         en:
 
-    - summary:
+    - display: true
+      summary:
         zh: ERP系統
         en: Systems of ERP
       company:
@@ -278,7 +347,8 @@ attainments:
           - 案主分別是一個室內設計工作室以及印刷廠，使用Ruby on Rails協助建立一套表單系統。
         en:
 
-    - summary:
+    - display: true
+      summary:
         zh: MyClinic App
         en: MyClinic App
       company:
@@ -290,7 +360,8 @@ attainments:
           - 主要是在ios上面提供一個搜尋醫療資源的APP，我負責的是後端的部分，採用的是Ruby on Rails。
         en:
 
-    - summary:
+    - display: true
+      summary:
         zh: 重新實作TMP協定，並且建立一個模擬證交所行為的server
         en: Implemented a library of TMP protocol. And make an emulator of server of TWSE.
       company:
@@ -303,7 +374,8 @@ attainments:
           - 此模擬證交所行為的server為業界唯一。
         en:
 
-    - summary:
+    - display: true
+      summary:
         zh: 實作一個FIX協定的library
         en: Implemented a library of FIX protocol.
       company:
@@ -316,7 +388,8 @@ attainments:
           - 所以重新實作了一個輕便的新版本，這是當時業界中唯一自己實作的版本。
         en:
 
-    - summary:
+    - display: true
+      summary:
         zh: 自動產生程式碼，編譯以及測試
         en: Developed tools for generating, compiling & testing code automatically.
       company:
@@ -329,7 +402,8 @@ attainments:
           - 最早版本使用python撰寫，後來全部改為ruby。
         en:
 
-    - summary:
+    - display: true
+      summary:
         zh: 遊戲明星三缺一的程式維護
         en: Maintained a mah-jongg game.
       company:
@@ -340,7 +414,8 @@ attainments:
           - 主要負責麻將遊戲明星三缺一的client與server端維護與改版。
         en:
 
-    - summary:
+    - display: true
+      summary:
         zh: 遊戲後端管理平台的開發
         en: Developed a backend platform for managing games.
       company:
