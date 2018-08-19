@@ -136,35 +136,54 @@
     <div class="container-fluid text-center">
       <h1>Attainments</h1>
     </div>
+    <div id="attainments"></div>
     <div class="row">
-        <div id="attainment0"></div>
-        <div id="attainment1"></div>
-        <div id="attainment2"></div>
+        <div class="col-xs-4" id="attainment0"></div>
+        <div class="col-xs-4" id="attainment1"></div>
+        <div class="col-xs-4" id="attainment2"></div>
     </div>
     <div class="row">
-        <div id="attainment3"></div>
-        <div id="attainment4"></div>
-        <div id="attainment5"></div>
+        <div class="col-xs-4" id="attainment3"></div>
+        <div class="col-xs-4" id="attainment4"></div>
+        <div class="col-xs-4" id="attainment5"></div>
     </div>
-    <div class="row">
-        <div id="attainment6"></div>
-        <div id="attainment7"></div>
-        <div id="attainment8"></div>
-    </div>
-    <div class="row">
-        <div id="attainment9"></div>
-        <div id="attainment10"></div>
-        <div id="attainment11"></div>
-    </div>
-    <div class="row">
-        <div id="attainment12"></div>
-        <div id="attainment13"></div>
-        <div id="attainment14"></div>
-    </div>
+    <div class="pagebreak"></div>
 
 
+    <div class="row">
+        <div class="col-xs-4" id="attainment6"></div>
+        <div class="col-xs-4" id="attainment7"></div>
+        <div class="col-xs-4" id="attainment8"></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-4" id="attainment9"></div>
+        <div class="col-xs-4" id="attainment10"></div>
+        <div class="col-xs-4" id="attainment11"></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-4" id="attainment12"></div>
+        <div class="col-xs-4" id="attainment13"></div>
+        <div class="col-xs-4" id="attainment14"></div>
+    </div>
+    <div class="pagebreak"></div>
 
 
+    <div class="row">
+        <div class="col-xs-4" id="attainment15"></div>
+        <div class="col-xs-4" id="attainment16"></div>
+        <div class="col-xs-4" id="attainment17"></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-4" id="attainment18"></div>
+        <div class="col-xs-4" id="attainment19"></div>
+        <div class="col-xs-4" id="attainment20"></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-4" id="attainment21"></div>
+        <div class="col-xs-4" id="attainment22"></div>
+        <div class="col-xs-4" id="attainment23"></div>
+    </div>
+    <div class="pagebreak"></div>
 
 
     <!-- programming languages -->
@@ -172,7 +191,7 @@
       <h1>Languages & Skills</h1>
     </div>
     <div id="programs"></div>
-
+    <br>
 
     <div class="row">
         <div id="skill0"></div>
@@ -201,12 +220,13 @@
     <div id="license6"></div>
 
 
+    <!--
     <div class="container-fluid text-center">
       <h1>Educations</h1>
     </div>
     <div id="education0"></div>
     <div id="education1"></div>
-
+    -->
     
   </div>
   </body>
@@ -244,7 +264,7 @@ function fillData(doc){
 
     $("#username").html(doc['name']['zh']+"'s profile");
     $("#mail").html(doc['mail']);
-    $("#phone").html(doc['phones']);
+    $("#phone").html(doc['phones'].join("<br>"));
     $("#github").html(doc['github']);
     $("#blog").html(doc['blog']);
 
@@ -256,12 +276,14 @@ function fillData(doc){
             data: {
                 'name': x['name'][lang],
                 'duration': x['duration'],
-                'position': x['position'][lang]
+                'position': x['position'][lang],
+                'description': x['description'][lang]
             },
             template:[
                 '<div class="col-xs-3" >',
                 '<div class="panel panel-default text-center">',
                 '<h4>{{name}}</h4>',
+                '<p>{{description}}</p>',
                 '<p>{{duration}}</p>',
                 '<p>{{position}}</p>',
                 '</div>',
@@ -270,6 +292,20 @@ function fillData(doc){
         });
     });
 
+
+    // var numRow =  Math.ceil(doc['attainments']['items'].length/3);
+    // var template = "";
+    // for(var i=0; i<numRow; i++){
+    //     template += [
+    //         '<div class="row">',
+    //             '<div class="col-xs-4" id="attainment'+(i*3+0)+'"></div>',
+    //             '<div class="col-xs-4" id="attainment'+(i*3+1)+'"></div>',
+    //             '<div class="col-xs-4" id="attainment'+(i*3+2)+'"></div>',
+    //         '</div>',
+    //     ].join('');
+    // }
+    // $('#attainments').html(template);
+    
 
     doc['attainments']['items'].forEach((x,i) => {
         console.log(x);
@@ -337,7 +373,7 @@ function fillData(doc){
     });
     
 
-    var skills = ['libraries','databases','special_experiences_and_knowledge','os','vsersion_controlls'];
+    var skills = ['libraries','databases','special experiences and knowledge','os','vsersion controlls'];
     skills.forEach((x,i) => {
         new Vue({
             el: '#skill'+i,

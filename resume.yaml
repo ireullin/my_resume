@@ -20,9 +20,7 @@ profile:
     - 在職涯的前八年，c++是我最熟悉的語言，我在AIX與Linux中使用SCI(system call interfaces)與IPC(inter-process communication)的技巧開發各種元件，方便其他語言呼叫，並且保持良好的效能。
     - 另外我還透過python與ruby建立了各種測試程式，以確保產品有一定程度的穩定性，並且達到自動化的佈署，減少人為的疏失。
 
-    - 在現在的公司我開始使用java做為主要語言，而且也積極嘗試JVM上其他的新語言，
-    - 承蒙主管以及同事不吝嗇的分享知識與各種學習資源下我開始接觸了ML(machine learning)，並且藉由過往的程式經驗將演算法成功的整合到了系統之中，
-    - 使得演算法不只是理論而有機會可以跟實務結合，而這結果也回饋給了公司，使得公司的人力可以更有效率的應用，並且減少人為的失誤的機率。
+    - 在現在的公司我開始使用java做為主要語言，而且也積極嘗試JVM上其他的新語言，承蒙主管以及同事不吝嗇的分享知識與各種學習資源下我開始接觸了ML(machine learning)，並且藉由過往的程式經驗將演算法成功的整合到了系統之中，使得演算法不只是理論而有機會可以跟實務結合，而這結果也回饋給了公司，使得公司的人力可以更有效率的應用，並且減少人為的失誤的機率。
 
   en:
     -
@@ -106,7 +104,7 @@ databases:
   - Oracle
   - Cassandra
 
-vsersion_controlls:
+vsersion controlls:
   - Git
   - SVN
   - SourceSafe
@@ -116,7 +114,7 @@ os:
   - Linux(ubuntu, centos)
   - Windows
 
-special_experiences_and_knowledge:
+special experiences and knowledge:
   - Scrum
   - TCP/IP with raw socket
   - Inter-process communication
@@ -212,33 +210,6 @@ attainments:
 
     - display: true
       summary:
-        zh: 圖形辨識系統
-        en: 
-      company:
-        zh: current company
-        en: current company
-      description:
-        zh:
-          - 使用neural network中特化的cnn算法進行圖像的辨識。
-          - 給定兩張圖片，藉由演算法去判斷是同一件物品的機率有多高，正確率為78%。
-        en:    
-
-    - display: true
-      summary:
-        zh: 自動比價系統
-        en:
-      company:
-        zh: current company
-        en: current company
-      description:
-        zh:
-          - 我們的自動比價系統可以每天將我們的所有商品與目前四大通用電商進行比價。
-          - 我在其中負責核心演算法的撰寫，例如由商品資料中歸納出型號(電器部分)或者是關鍵字，再藉由網路爬蟲去各家電商搜尋更新資訊。
-          - 另外也參與了該系統其他部分的架構設計與規劃。
-        en:  
-
-    - display: true
-      summary:
         zh: 商品自動分類
         en:
       company:
@@ -253,14 +224,16 @@ attainments:
 
     - display: true
       summary:
-        zh: also buy system
-        en:
+        zh: 圖形辨識系統
+        en: 
       company:
         zh: current company
         en: current company
       description:
-        zh: 透過AR算法以及其他content base的算法(LCS, TFIDF etc.)混搭，完成一個also buy系統後台
-        en:  
+        zh:
+          - 使用neural network中特化的cnn算法進行圖像的辨識。
+          - 給定兩張圖片，藉由演算法去判斷是同一件物品的機率有多高，正確率為78%。
+        en:    
 
     - display: true
       summary:
@@ -270,8 +243,39 @@ attainments:
         zh: current company
         en: current company
       description:
-        zh: 優化出貨時裝箱的空間利用率
-        en:      
+        zh: 
+          - 優化出貨時裝箱的空間利用率
+        en: 
+   
+
+    - display: true
+      summary:
+        zh: also buy system
+        en:
+      company:
+        zh: current company
+        en: current company
+      description:
+        zh: 
+          - 透過AR算法以及其他content base的算法(LCS, TFIDF etc.)混搭，完成一個also buy系統後台
+        en:  
+
+    
+        
+    - display: true
+      summary:
+        zh: 自動比價系統
+        en:
+      company:
+        zh: current company
+        en: current company
+      description:
+        zh:
+          - 我們的自動比價系統可以每天將我們的所有商品與目前四大通用電商進行比價。
+          - 我在其中負責核心演算法的撰寫，例如由商品資料中歸納出型號(電器部分)或者是關鍵字，再藉由網路爬蟲去各家電商搜尋更新資訊。
+          - 另外也參與了該系統其他部分的架構設計與規劃。
+        en:  
+    
 
     - display: true
       summary:
@@ -368,19 +372,7 @@ attainments:
           - 主要是在ios上面提供一個搜尋醫療資源的APP，我負責的是後端的部分，採用的是Ruby on Rails。
         en:
 
-    - display: true
-      summary:
-        zh: 重新實作TMP協定，並且建立一個模擬證交所行為的server
-        en: Implemented a library of TMP protocol. And make an emulator of server of TWSE.
-      company:
-        zh: Bull computer
-        en: Bull computer
-      description:
-        zh:
-          - TMP協定為證交所股票與期貨交易所使用的協定，我重新由網路協定中的第四層實作了整個協定，並且調整了socket的參數使得整體處理速度與原本的相較下提升3倍。
-          - 另外透過蒐集證交所各種回覆，逆向工程建立了一個證交所的模擬伺服器，使得公司及客戶不需要額外申請測試線路，節省公司及客戶經費
-          - 此模擬證交所行為的server為業界唯一。
-        en:
+    
 
     - display: true
       summary:
@@ -395,6 +387,20 @@ attainments:
           - 當時國外免費的library只有QuickFIX，缺點為效能不佳與體積臃腫但太多的功能都用不到。
           - 所以重新實作了一個輕便的新版本，這是當時業界中唯一自己實作的版本。
         en:
+
+    - display: true
+      summary:
+        zh: 重新實作TMP協定，並且建立一個模擬證交所行為的server
+        en: Implemented a library of TMP protocol. And make an emulator of server of TWSE.
+      company:
+        zh: Bull computer
+        en: Bull computer
+      description:
+        zh:
+          - TMP協定為證交所股票與期貨交易所使用的協定，我重新由網路協定中的第四層實作了整個協定，並且調整了socket的參數使得整體處理速度與原本的相較下提升3倍。
+          - 另外透過蒐集證交所各種回覆，逆向工程建立了一個證交所的模擬伺服器，使得公司及客戶不需要額外申請測試線路，節省公司及客戶經費
+          - 此模擬證交所行為的server為業界唯一。
+        en:     
 
     - display: true
       summary:
