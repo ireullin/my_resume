@@ -20,7 +20,8 @@ profile:
     - 在職涯的前八年，c++是我最熟悉的語言，我在AIX與Linux中使用SCI(system call interfaces)與IPC(inter-process communication)的技巧開發各種元件，方便其他語言呼叫，並且保持良好的效能。
     - 另外我還透過python與ruby建立了各種測試程式，以確保產品有一定程度的穩定性，並且達到自動化的佈署，減少人為的疏失。
 
-    - 在現在的公司我開始使用java做為主要語言，而且也積極嘗試JVM上其他的新語言，承蒙主管以及同事不吝嗇的分享知識與各種學習資源下我開始接觸了ML(machine learning)，並且藉由過往的程式經驗將演算法成功的整合到了系統之中，使得演算法不只是理論而有機會可以跟實務結合，而這結果也回饋給了公司，使得公司的人力可以更有效率的應用，並且減少人為的失誤的機率。
+    - 在現在的公司我開始使用java做為主要語言，而且也積極嘗試JVM上其他的新語言。
+    - 承蒙主管以及同事不吝嗇的分享知識與各種學習資源下我開始接觸了machine learning，並且藉由過往的程式經驗將演算法成功的整合到了系統之中，使得演算法不只是理論而有機會可以跟實務結合，而這結果也回饋給了公司，使得公司的人力可以更有效率的應用，並且減少人為的失誤的機率。
 
   en:
     -
@@ -123,13 +124,14 @@ special experiences and knowledge:
 
 companies:
   - name:
-      zh: current company
-      en: current company
+      zh: Current Company
+      en: Current Company
     position:
       zh: 資深工程師
       en: Senior software engineer
     description:
-      zh: 電商  
+      zh: 
+        - 電商  
       en:   
     duration: 2014/1 – now
 
@@ -140,7 +142,8 @@ companies:
       zh: 資深工程師
       en: Senior software engineer
     description:
-      zh: unix(IBM AIX)作業系統代理商
+      zh: 
+        - unix(IBM AIX)作業系統代理商
       en:    
     duration: 2010/11 – 2013/12
 
@@ -151,7 +154,9 @@ companies:
       zh: 工程師
       en: Software engineer
     description:
-      zh: 大型機台 博弈 線上遊戲 
+      zh: 
+        - 大型機台 博弈 
+        - 線上遊戲 
       en:  
     duration: 2006/11 – 2010/5
 
@@ -162,8 +167,10 @@ companies:
       zh: 工程師
       en: Software engineer
     description:
-      zh: 金融保險業  
-      en: 金融保險業    
+      zh: 
+        - 金融保險業  
+        - 
+      en:
     duration: 2004/02 – 2006/11
 
 attainments:
@@ -174,17 +181,16 @@ attainments:
   items:
     - display: true
       summary:
-        zh: Machine Learning Libraries
+        zh: ML Libraries
         en: Machine Learning Libraries
       company:
         zh: side projects
         en: side projects
       description:
         zh:
-          - 我認為了解一個演算法最好的方式就是實作一次。
-          - 所以在專案前期的實驗階段，只要時間上還寬裕我都會自己先實作一次演算法，以幫助自己了解整個算法的細節。
-          - 特別在一次使用者消費習慣的分群中，因為使用的是自己實作過的k-means套件，所以很快的能發現無法乾淨分群的原因在於質心距離的計算方式上。
-          - 所以將原本的Euclidean Distance改為Manhattan Distance，成功的分離出不同的消費者族群。
+          - 我認為了解一個演算法最好的方式就是實作，所以在專案前期的實驗階段，只要時間上還寬裕我都會自己先實作一次演算法，以幫助自己了解整個算法的細節。
+          - 例如在一次使用者消費習慣的分群中，因為使用的是自己實作過的k-means套件，所以很快的能發現無法乾淨分群的原因在於質心距離的計算方式上。
+          - 所以將Distance的計算由慣用的Euclidean改為Manhattan，成功的分離出不同的消費者族群。
           - 另外若該語言也剛好缺乏此方面的套件庫的話，我也很樂意貢獻出去。
           - https://github.com/ireullin/decision-tree
           - https://github.com/ireullin/kmeans-crystal
@@ -202,25 +208,29 @@ attainments:
         en: current company
       description:
         zh:
-          - 獨立一人完成架構的規劃，專案的管理，實驗的設計，數據的視覺化以及在不倚靠任何函式庫的情況下實作了AR(Association Rule)以及k-means兩個演算法。
-          - 該演算法AR在10 folds cross validation中達到了21%的命中率(扣除通用電商中衛生紙等常見日用品，若不扣除則命中率為29%)。
-          - 另外又設計了數據回收機制以統計Click-through rate(CTR)以及訂單轉換率，其中CTR平均為9.5%，最高為11%。
+          - 獨立一人完成架構的規劃，專案的管理，實驗的設計，數據的視覺化以及在不倚靠任何函式庫的情況下實作了AR(Association Rule)演算法。
+          - 該演算法在10 folds cross validation中達到了21%的命中率(扣除通用電商中衛生紙等常見日用品，若不扣除則命中率為29%)。
+          - 上線後又設計了數據回收機制以統計Click-through rate(CTR)以及訂單轉換率，其中CTR平均為9.5%，最高為11%。
           - 在後續的版本中開始導入spark，利用裡頭ALS(alternative least square)的解法來實作collaborative filtering改良原本的推薦系統。
         en:
 
     - display: true
       summary:
-        zh: 商品自動分類
-        en:
+        zh: 網路掃描軟體 NetworkScanner
+        en: A network scanner.
       company:
-        zh: current company
-        en: current company
+        zh: side projects
+        en: side projects
       description:
-        zh: 
-          - 透過商品資料訓練出一個模型，當有新商品要上架時，會透過該新商品的資料進行預測並自動進行分類。
-          - 此系統提供三個可能的分類預測，第一優先選項命中率為78%，
-          - 前兩的選項的命中率為86%，前三選項的命中率為90%。
-        en:  
+        zh:
+          - 以練習為目的所開發的程式，可以大範圍掃描某個網段中所有機器工作中的port以及推斷其作業系統，並透過一個web介面加以控制。
+          - 此程式沒有使用system call之外的任何library，自行實作了ping(icmp scan)，traceroute， syn scan， syn/ack scan， fin scan 等功能，
+          - 並且還擁有一個實作了部分http protocol的web server以及json parser
+          - https://github.com/ireullin/NetworkScanner
+        en:
+          - https://github.com/ireullin/NetworkScanner
+
+    
 
     - display: true
       summary:
@@ -257,7 +267,7 @@ attainments:
         en: current company
       description:
         zh: 
-          - 透過AR算法以及其他content base的算法(LCS, TFIDF etc.)混搭，完成一個also buy系統後台
+          - 透過AR算法以及其他content base的算法(LCS, TFIDF etc.)混搭，完成一個also buy系統後台。
         en:  
 
     
@@ -271,27 +281,40 @@ attainments:
         en: current company
       description:
         zh:
-          - 我們的自動比價系統可以每天將我們的所有商品與目前四大通用電商進行比價。
+          - 我們的自動比價系統可以每天將我們的所有商品與目前四大通用電商進行重新比價。
           - 我在其中負責核心演算法的撰寫，例如由商品資料中歸納出型號(電器部分)或者是關鍵字，再藉由網路爬蟲去各家電商搜尋更新資訊。
           - 另外也參與了該系統其他部分的架構設計與規劃。
+        en:  
+    
+    - display: true
+      summary:
+        zh: 商品自動分類
+        en: 
+      company:
+        zh: current company
+        en: current company
+      description:
+        zh: 
+          - 透過原有商品資料訓練出一個模型，當有新商品要上架時，會透過該新商品的資料進行預測並自動進行分類，以加速商品上架速度。
+          - 此系統提供三個可能的分類預測，第一優先選項命中率為78%，前兩的選項的命中率為86%，前三選項的命中率為90%。
         en:  
     
 
     - display: true
       summary:
-        zh: 網路掃描軟體 NetworkScanner
-        en: A network scanner.
+        zh: 機器人農場
+        en: A robotic farm.
       company:
         zh: side projects
         en: side projects
       description:
         zh:
-          - 以練習為目的所開發的程式，可以大範圍掃描某個網段中所有機器工作中的port以及推斷其作業系統，並透過一個web介面加以控制。
-          - 此程式沒有使用system call之外的任何library，自行實作了ping(icmp scan)，traceroute， syn scan， syn/ack scan， fin scan 等功能，
-          - 並且還擁有一個實作了部分http protocol的web server以及json parser
-          - https://github.com/ireullin/NetworkScanner
+          - 單純為個人興趣的專案。
+          - 以arduino以及linux打造出一個室內的小農場。
+          - 可以透過系統監控空氣的濕度溫度，土壤的含水量以及照度，並且進行縮時攝影。
+          - 在光源不足的時候自動打開led燈，土壤水分不足的時候會發line通知澆水。
         en:
-          - https://github.com/ireullin/NetworkScanner
+
 
     - display: true
       summary:
@@ -306,19 +329,6 @@ attainments:
           - 並透過line或telegram等通訊軟體即時告知各相關人員，以及可以從中分析公司接下來進貨的方向。
         en:
 
-    - display: true
-      summary:
-        zh: 機器人農場
-        en: A robotic farm.
-      company:
-        zh: side projects
-        en: side projects
-      description:
-        zh:
-          - 以arduino以及linux打造出一個室內的小農場。
-          - 可以透過系統監控空氣的濕度溫度，土壤的含水量以及照度，並且進行縮時攝影。
-          - 在光源不足的時候自動打開led燈，土壤水分不足的時候會發line通知澆水。
-        en:
 
     - display: true
       summary:
@@ -329,8 +339,8 @@ attainments:
         en: current company
       description:
         zh:
-          - 帶領一個六人團隊(包含自己)，完成一個後端平台，其中包含架構設計，規格的討論，工作的分配，以及每人進度的掌握。
-          - 其中包含了協助解決每個人技術上遭遇的問題，並且最後在上海進行兩個月的技術交接。
+          - 帶領一個六人團隊，完成一個後端平台，其中包含架構設計，規格的討論，工作的分配，以及每人進度的掌握，
+          - 並且協助解決每個人技術上遭遇的問題，最後在上海進行兩個月的技術交接。
         en:
 
     - display: true
@@ -343,7 +353,7 @@ attainments:
       description:
         zh:
           - 管理本地端機房以及GCP(Google Cloud Platform)上的VM以及docker container。
-          - 另外也包含了自動化佈署，以及各機器效能的調教。
+          - 另外也包含了自動化佈署，以及各機器效能的調校。
         en:
 
     - display: true
@@ -418,18 +428,6 @@ attainments:
 
     - display: true
       summary:
-        zh: 遊戲明星三缺一的程式維護
-        en: Maintained a mah-jongg game.
-      company:
-        zh: 鈊象電子
-        en: International Games System CO.
-      description:
-        zh:
-          - 主要負責麻將遊戲明星三缺一的client與server端維護與改版。
-        en:
-
-    - display: true
-      summary:
         zh: 遊戲後端管理平台的開發
         en: Developed a backend platform for managing games.
       company:
@@ -441,3 +439,14 @@ attainments:
           - 主要提供遊戲參數設定，牌局重現機制(sourcing log)，以及提供報表。
         en:
 
+    - display: true
+      summary:
+        zh: 遊戲明星三缺一的程式維護
+        en: Maintained a mah-jongg game.
+      company:
+        zh: 鈊象電子
+        en: International Games System CO.
+      description:
+        zh:
+          - 主要負責麻將遊戲明星三缺一的client與server端維護與改版。
+        en:
