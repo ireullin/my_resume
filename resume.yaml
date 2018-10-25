@@ -180,6 +180,9 @@ attainments:
 
   items:
     - display: true
+      keywords:
+        - Machine Learning
+        - ruby
       summary:
         zh: ML Libraries
         en: Machine Learning Libraries
@@ -198,8 +201,14 @@ attainments:
           - https://github.com/ireullin/principal-components-analysis
         en:
 
-
     - display: true
+      keywords:
+        - Machine Learning
+        - java
+        - scala
+        - kotlin
+        - python
+        - postgreSQL
       summary:
         zh: 推薦系統
         en: A recommendation system.
@@ -215,6 +224,9 @@ attainments:
         en:
 
     - display: true
+      keywords:
+        - c++98
+        - AIX(unix)
       summary:
         zh: 網路掃描軟體 NetworkScanner
         en: A network scanner.
@@ -233,6 +245,12 @@ attainments:
     
 
     - display: true
+      keywords:
+        - Machine Learning
+        - keras
+        - tensorflow
+        - python
+        - linux
       summary:
         zh: 圖形辨識系統
         en: 
@@ -246,6 +264,8 @@ attainments:
         en:    
 
     - display: true
+      keywords:
+        - kotlin
       summary:
         zh: bin packing
         en:
@@ -257,8 +277,15 @@ attainments:
           - 優化出貨時裝箱的空間利用率
         en: 
    
-
     - display: true
+      keywords:
+        - Machine Learning
+        - java
+        - scala
+        - kotlin
+        - python
+        - postgreSQL
+        - linux
       summary:
         zh: also buy system
         en:
@@ -270,9 +297,14 @@ attainments:
           - 透過AR算法以及其他content base的算法(LCS, TFIDF etc.)混搭，完成一個also buy系統後台。
         en:  
 
-    
         
     - display: true
+      keywords:
+        - java
+        - cassandra
+        - solr
+        - postgreSQL
+        - linux
       summary:
         zh: 自動比價系統
         en:
@@ -287,6 +319,11 @@ attainments:
         en:  
     
     - display: true
+      keywords:
+        - java
+        - Machine Learning
+        - postgreSQL
+        - linux
       summary:
         zh: 商品自動分類
         en: 
@@ -299,8 +336,11 @@ attainments:
           - 此系統提供三個可能的分類預測，第一優先選項命中率為78%，前兩的選項的命中率為86%，前三選項的命中率為90%。
         en:  
     
-
     - display: true
+      keywords:
+        - arduino
+        - mySQL
+        - linux
       summary:
         zh: 機器人農場
         en: A robotic farm.
@@ -317,6 +357,10 @@ attainments:
 
 
     - display: true
+      keywords:
+        - Ruby on Rails
+        - postgresSQL
+        - linux
       summary:
         zh: 使用者搜尋關鍵字即時偵測
         en:
@@ -331,6 +375,10 @@ attainments:
 
 
     - display: true
+      keywords:
+        - php
+        - orcale DB
+        - team leader
       summary:
         zh: 專案管理
         en: Project management.
@@ -344,6 +392,9 @@ attainments:
         en:
 
     - display: true
+      keywords:
+        - docker
+        - GCP
       summary:
         zh: 開發環境以及線上環境的的建立以及維護
         en: Built & maintained environments of procuction & development.
@@ -357,6 +408,10 @@ attainments:
         en:
 
     - display: true
+      keywords:    
+        - Ruby on Rails
+        - mySQL
+        - linux
       summary:
         zh: ERP系統
         en: Systems of ERP
@@ -370,6 +425,10 @@ attainments:
         en:
 
     - display: true
+      keywords:    
+        - Ruby on Rails
+        - mySQL
+        - linux
       summary:
         zh: MyClinic App
         en: MyClinic App
@@ -382,9 +441,11 @@ attainments:
           - 主要是在ios上面提供一個搜尋醫療資源的APP，我負責的是後端的部分，採用的是Ruby on Rails。
         en:
 
-    
-
     - display: true
+      keywords:    
+        - c++98
+        - FIX protocol
+        - AIX(unix)
       summary:
         zh: 實作一個FIX協定的library
         en: Implemented a library of FIX protocol.
@@ -399,6 +460,11 @@ attainments:
         en:
 
     - display: true
+      keywords:    
+        - c++98
+        - c#
+        - TMP protocol
+        - AIX(unix)
       summary:
         zh: 重新實作TMP協定，並且建立一個模擬證交所行為的server
         en: Implemented a library of TMP protocol. And make an emulator of server of TWSE.
@@ -413,6 +479,11 @@ attainments:
         en:     
 
     - display: true
+      keywords:
+        - c++98
+        - python
+        - COBOL
+        - AIX(unix)
       summary:
         zh: 自動產生程式碼，編譯以及測試
         en: Developed tools for generating, compiling & testing code automatically.
@@ -427,6 +498,13 @@ attainments:
         en:
 
     - display: true
+      keywords:
+        - c++98
+        - MsSQL
+        - MFC
+        - c#
+        - win forms
+        - MS windows
       summary:
         zh: 遊戲後端管理平台的開發
         en: Developed a backend platform for managing games.
@@ -440,6 +518,10 @@ attainments:
         en:
 
     - display: true
+      keywords:
+        - c++98
+        - MFC
+        - MS windows
       summary:
         zh: 遊戲明星三缺一的程式維護
         en: Maintained a mah-jongg game.
