@@ -3,6 +3,8 @@
   <head>
     <title>about me</title>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -136,52 +138,6 @@
       <h1>Attainments</h1>
     </div>
     <div id="attainments"></div>
-    <div class="row">
-        <div class="col-xs-4" id="attainment0"></div>
-        <div class="col-xs-4" id="attainment1"></div>
-        <div class="col-xs-4" id="attainment2"></div>
-    </div>
-    <div class="row">
-        <div class="col-xs-4" id="attainment3"></div>
-        <div class="col-xs-4" id="attainment4"></div>
-        <div class="col-xs-4" id="attainment5"></div>
-    </div>
-    <div class="pagebreak"></div>
-
-
-    <div class="row">
-        <div class="col-xs-4" id="attainment6"></div>
-        <div class="col-xs-4" id="attainment7"></div>
-        <div class="col-xs-4" id="attainment8"></div>
-    </div>
-    <div class="row">
-        <div class="col-xs-4" id="attainment9"></div>
-        <div class="col-xs-4" id="attainment10"></div>
-        <div class="col-xs-4" id="attainment11"></div>
-    </div>
-    <div class="row">
-        <div class="col-xs-4" id="attainment12"></div>
-        <div class="col-xs-4" id="attainment13"></div>
-        <div class="col-xs-4" id="attainment14"></div>
-    </div>
-    <div class="pagebreak"></div>
-
-
-    <div class="row">
-        <div class="col-xs-4" id="attainment15"></div>
-        <div class="col-xs-4" id="attainment16"></div>
-        <div class="col-xs-4" id="attainment17"></div>
-    </div>
-    <div class="row">
-        <div class="col-xs-4" id="attainment18"></div>
-        <div class="col-xs-4" id="attainment19"></div>
-        <div class="col-xs-4" id="attainment20"></div>
-    </div>
-    <div class="row">
-        <div class="col-xs-4" id="attainment21"></div>
-        <div class="col-xs-4" id="attainment22"></div>
-        <div class="col-xs-4" id="attainment23"></div>
-    </div>
     <div class="pagebreak"></div>
 
 
@@ -311,32 +267,30 @@ function fillData(doc){
     // $('#attainments').html(template);
     
 
-    doc['attainments']['items'].filter((x)=>x['display']).forEach((x,i) => {
-        console.log(x);
-        new Vue({
-            el: '#attainment'+i,
-            data: {
-                'summary': x['summary'][lang],
-                'description': x['description'][lang],
-                'company': x['company'][lang]
-            },
-            computed: {
-                desc: function(){
-                    return this.description.map((e)=>"<p>"+e+"</p>").join('');
-                }
-            },
-            template:[
-                '<div class="col-xs-4">',
-                    '<div class="panel panel-default">',
-                        '<div class="panel-heading  text-center">',
-                            '<h5>{{summary}}<br><small>in {{company}}</small></h5>',
-                        '</div>',
-                        '<div class="panel-body" v-html="desc"></div>',
-                    '</div>',
-                '</div>'
-            ].join('')
-        });
+    new Vue({
+        el: '#attainments',
+        data: {
+            attainments: doc['attainments']['items']
+        },
+        computed: {
+            desc: function(){
+                return this.description.map((e)=>"<p>"+e+"</p>").join('');
+            }
+        },
+        template:[
+            '<div>',
+            '<template v-for="att in attainments" v-if="att.display">',
+                '<div class="bs-callout bs-callout-default">',
+                        '<h3>{{att.summary.zh}}<small> in {{att.company.zh}}</small></h3>',
+                        '<p style="font-size:8px;"><b>keywords:</b> {{att.keywords.join(", ") }}</p>',
+                        '<hr>',
+                        '<p style="font-size:12px;" v-for="des in att.description.zh">{{des}}</p>',
+                '</div>',
+            '</template>',
+            '</div>',
+        ].join('')
     });
+    
 
 
     new Vue({
@@ -418,22 +372,22 @@ function fillData(doc){
         });
     });
 
-    doc['educations'].forEach((x,i) => {
-        new Vue({
-            el: '#education'+i,
-            data: {
-                'school': x['school'][lang],
-                'department': x['department'][lang],
-                'duration': x['duration'],
-            },
-            template:[
-                '<div class="bs-callout bs-callout-default">',
-                    '<h4>{{school}} <small>{{duration}}</small></h4>',
-                '<p>{{duration}}</p>',
-                '</div>'
-            ].join('')
-        });
-    });
+    // doc['educations'].forEach((x,i) => {
+    //     new Vue({
+    //         el: '#education'+i,
+    //         data: {
+    //             'school': x['school'][lang],
+    //             'department': x['department'][lang],
+    //             'duration': x['duration'],
+    //         },
+    //         template:[
+    //             '<div class="bs-callout bs-callout-default">',
+    //                 '<h4>{{school}} <small>{{duration}}</small></h4>',
+    //             '<p>{{duration}}</p>',
+    //             '</div>'
+    //         ].join('')
+    //     });
+    // });
 }
 
 
