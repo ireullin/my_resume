@@ -184,7 +184,7 @@ attainments:
         - Machine Learning
         - ruby
       summary:
-        zh: ML Libraries
+        zh: Machine Learning Libraries
         en: Machine Learning Libraries
       company:
         zh: side projects
@@ -201,6 +201,7 @@ attainments:
           - https://github.com/ireullin/principal-components-analysis
         en:
 
+
     - display: true
       keywords:
         - Machine Learning
@@ -210,18 +211,20 @@ attainments:
         - python
         - postgreSQL
       summary:
-        zh: 推薦系統
-        en: A recommendation system.
+        zh: 個人化推薦系統
+        en: A personal recommendation system.
       company:
         zh: current company
         en: current company
       description:
         zh:
-          - 獨立一人完成架構的規劃，專案的管理，實驗的設計，數據的視覺化以及在不倚靠任何函式庫的情況下實作了AR(Association Rule)演算法。
+          - 透過各種算法(AR, CF, LCS, TFIDF etc.)的組合提供公司個人化首頁，個人化電子報，以及單品頁相關商品的推薦的服務。
+          - 此系統由我一人獨立完成架構的規劃，專案的管理，實驗的設計，數據的視覺化以及系統實作。
+          - 並且在不倚靠任何函式庫的情況下實作了AR(Association Rule)演算法。
           - 該演算法在10 folds cross validation中達到了21%的命中率(扣除通用電商中衛生紙等常見日用品，若不扣除則命中率為29%)。
           - 上線後又設計了數據回收機制以統計Click-through rate(CTR)以及訂單轉換率，其中CTR平均為9.5%，最高為11%。
-          - 在後續的版本中開始導入spark，利用裡頭ALS(alternative least square)的解法來實作collaborative filtering改良原本的推薦系統。
         en:
+
 
     - display: true
       keywords:
@@ -242,7 +245,6 @@ attainments:
         en:
           - https://github.com/ireullin/NetworkScanner
 
-    
 
     - display: true
       keywords:
@@ -263,7 +265,8 @@ attainments:
           - 給定兩張圖片，藉由演算法去判斷是同一件物品的機率有多高，正確率為78%。
         en:    
 
-    - display: true
+
+    - display: false
       keywords:
         - kotlin
       summary:
@@ -276,26 +279,7 @@ attainments:
         zh: 
           - 優化出貨時裝箱的空間利用率
         en: 
-   
-    - display: true
-      keywords:
-        - Machine Learning
-        - java
-        - scala
-        - kotlin
-        - python
-        - postgreSQL
-        - linux
-      summary:
-        zh: also buy system
-        en:
-      company:
-        zh: current company
-        en: current company
-      description:
-        zh: 
-          - 透過AR算法以及其他content base的算法(LCS, TFIDF etc.)混搭，完成一個also buy系統後台。
-        en:  
+
 
         
     - display: true
@@ -317,7 +301,8 @@ attainments:
           - 我在其中負責核心演算法的撰寫，例如由商品資料中歸納出型號(電器部分)或者是關鍵字，再藉由網路爬蟲去各家電商搜尋更新資訊。
           - 另外也參與了該系統其他部分的架構設計與規劃。
         en:  
-    
+
+
     - display: true
       keywords:
         - java
@@ -335,8 +320,9 @@ attainments:
           - 透過原有商品資料訓練出一個模型，當有新商品要上架時，會透過該新商品的資料進行預測並自動進行分類，以加速商品上架速度。
           - 此系統提供三個可能的分類預測，第一優先選項命中率為78%，前兩的選項的命中率為86%，前三選項的命中率為90%。
         en:  
-    
-    - display: true
+
+
+    - display: false
       keywords:
         - arduino
         - mySQL
@@ -379,6 +365,8 @@ attainments:
         - php
         - orcale DB
         - team leader
+        - scurm
+        - trello
       summary:
         zh: 專案管理
         en: Project management.
@@ -390,6 +378,7 @@ attainments:
           - 帶領一個六人團隊，完成一個後端平台，其中包含架構設計，規格的討論，工作的分配，以及每人進度的掌握，
           - 並且協助解決每個人技術上遭遇的問題，最後在上海進行兩個月的技術交接。
         en:
+
 
     - display: true
       keywords:
@@ -406,6 +395,7 @@ attainments:
           - 管理本地端機房以及GCP(Google Cloud Platform)上的VM以及docker container。
           - 另外也包含了自動化佈署，以及各機器效能的調校。
         en:
+
 
     - display: true
       keywords:    
@@ -424,6 +414,7 @@ attainments:
           - 案主分別是一個室內設計工作室以及印刷廠，使用Ruby on Rails協助建立一套表單系統。
         en:
 
+
     - display: true
       keywords:    
         - Ruby on Rails
@@ -440,6 +431,7 @@ attainments:
           - 與一群朋友私下成立的專案。
           - 主要是在ios上面提供一個搜尋醫療資源的APP，我負責的是後端的部分，採用的是Ruby on Rails。
         en:
+
 
     - display: true
       keywords:    
@@ -458,6 +450,7 @@ attainments:
           - 當時國外免費的library只有QuickFIX，缺點為效能不佳與體積臃腫但太多的功能都用不到。
           - 所以重新實作了一個輕便的新版本，這是當時業界中唯一自己實作的版本。
         en:
+
 
     - display: true
       keywords:    
@@ -478,6 +471,7 @@ attainments:
           - 此模擬證交所行為的server為業界唯一。
         en:     
 
+
     - display: true
       keywords:
         - c++98
@@ -496,6 +490,7 @@ attainments:
           - 目的在減少人為操作上的疏失以及加快開發速度。
           - 最早版本使用python撰寫，後來全部改為ruby。
         en:
+
 
     - display: true
       keywords:
@@ -517,11 +512,13 @@ attainments:
           - 主要提供遊戲參數設定，牌局重現機制(sourcing log)，以及提供報表。
         en:
 
+
     - display: true
       keywords:
         - c++98
         - MFC
         - MS windows
+        - scurm
       summary:
         zh: 遊戲明星三缺一的程式維護
         en: Maintained a mah-jongg game.
