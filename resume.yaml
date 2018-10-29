@@ -66,23 +66,57 @@ licenses:
     url:
 
 programs:
-  excellent:
-    - C++ 98
-  good:
-    - Java
-    - Kotlin
-    - Scala
-    - Ruby
-    - Python
-  general:
-    - Pure c
-    - C#
-    - Java script
-    - Php
-  used:
-    - Perl
-    - R
-    - COBOL
+    - name: C++ 98
+      level: excellent
+      lastuse: 5 years ago
+
+    - name: Java
+      level: good
+      lastuse: within 1 month
+
+    - name: Kotlin
+      level: good
+      lastuse: within 1 month
+     
+    - name: Python
+      level: good
+      lastuse: within 1 month  
+    
+    - name: Scala
+      level: good
+      lastuse: 1 year ago
+    
+    - name: Ruby
+      level: good
+      lastuse: 1 year ago
+    
+    - name: C#
+      level: good
+      lastuse: 5 years ago  
+  
+    - name: Pure c
+      level: general
+      lastuse: 5 years ago
+
+    - name: Java script
+      level: general
+      lastuse: within 1 month
+
+    - name: Php
+      level: general
+      lastuse: 3 years ago
+  
+    - name: Perl
+      level: basic
+      lastuse: 5 years ago
+
+    - name: R
+      level: basic
+      lastuse: 3 years ago
+    
+    - name: COBOL
+      level: basic
+      lastuse: 5 years ago
 
 libraries:
   - C++ STD & MFC

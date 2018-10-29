@@ -279,40 +279,31 @@ function fillData(doc){
         ].join('')
     });
     
-    // $('#attainment_2').after('<div class="pagebreak"></div>');
-    // $('#attainment_5').after('<div class="pagebreak"></div>');
 
     new Vue({
         el: '#programs',
         data: {
-            'excellent': doc['programs']['excellent'],
-            'good': doc['programs']['good'],
-            'general': doc['programs']['general'],
-            'used': doc['programs']['used']
+            'languages': doc['programs']
         },
         template:[
             '<table class="table table-condensed">',
                 '<thead>',
                     '<tr>',
-                        '<th style="font-size:8px;">language</th>',
-                        '<th style="font-size:8px;">I really got it</th>',
-                        '<th style="font-size:8px;">To accomplish a project independently</th>',
-                        '<th style="font-size:8px;">I can write them</th>',
-                        '<th style="font-size:8px;">I used to work with them</th>',
+                        '<th style="font-size:8px;">Language</th>',
+                        '<th style="font-size:8px;">Last year I used</th>',
+                        '<th style="font-size:8px;">Proficiency </th>',
                     '</tr>',
                 '</thead>',
                 '<tbody>',
-                    '<tr v-for="i in excellent">',
-                        '<td>{{i}}</td><td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td><td></td><td></td><td></td>',
-                    '</tr>',
-                    '<tr v-for="i in good">',
-                        '<td>{{i}}</td><td></td><td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td><td></td><td></td>',
-                    '</tr>',
-                    '<tr v-for="i in general">',
-                        '<td>{{i}}</td><td></td><td></td><td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td><td></td>',
-                    '</tr>',
-                    '<tr v-for="i in used">',
-                        '<td>{{i}}</td><td></td><td></td><td></td><td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></td>',
+                    '<tr v-for="(l,i) in languages">',
+                        '<td><b>{{l.name}}</b></td>',
+                        '<td>{{l.lastuse}}</td>',
+                        '<td>',
+                            '<span v-if="l.level==\'excellent\'">I really got it.</span>',
+                            '<span v-else-if="l.level==\'good\'">I can accomplish a project independently.</span>',
+                            '<span v-else-if="l.level==\'general\'">I can write it.</span>',
+                            '<span v-else="l.level==\'basic\'">I used to work with it.</span>',
+                        '</td>',
                     '</tr>',
                 '</tbody>',
             '</table>'
