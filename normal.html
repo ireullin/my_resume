@@ -15,7 +15,7 @@
 
      <!-- vue js -->
      <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.5.1/vue-resource.js"></script>
+     
  
 
     <style type="text/css">
@@ -253,19 +253,6 @@ function fillData(doc){
     });
 
 
-    // var numRow =  Math.ceil(doc['attainments']['items'].length/3);
-    // var template = "";
-    // for(var i=0; i<numRow; i++){
-    //     template += [
-    //         '<div class="row">',
-    //             '<div class="col-xs-4" id="attainment'+(i*3+0)+'"></div>',
-    //             '<div class="col-xs-4" id="attainment'+(i*3+1)+'"></div>',
-    //             '<div class="col-xs-4" id="attainment'+(i*3+2)+'"></div>',
-    //         '</div>',
-    //     ].join('');
-    // }
-    // $('#attainments').html(template);
-    
 
     new Vue({
         el: '#attainments',
@@ -278,20 +265,22 @@ function fillData(doc){
             }
         },
         template:[
-            '<div>',
-            '<template v-for="att in attainments" v-if="att.display">',
-                '<div class="bs-callout bs-callout-default">',
+            '<div id="attainments">',
+                '<template v-for="(att,i) in attainments" v-if="att.display">',
+                    '<div :id="\'attainment_\'+i" class="bs-callout bs-callout-default">',
                         '<h3>{{att.summary.zh}}<small> in {{att.company.zh}}</small></h3>',
                         '<p style="font-size:8px;"><b>keywords:</b> {{att.keywords.join(", ") }}</p>',
                         '<hr>',
                         '<p style="font-size:12px;" v-for="des in att.description.zh">{{des}}</p>',
-                '</div>',
-            '</template>',
+                    '</div>',
+                    '<div class="pagebreak" v-if="(i==2 || i==6 || i==13)"></div>',
+                '</template>',
             '</div>',
         ].join('')
     });
     
-
+    // $('#attainment_2').after('<div class="pagebreak"></div>');
+    // $('#attainment_5').after('<div class="pagebreak"></div>');
 
     new Vue({
         el: '#programs',
@@ -305,11 +294,11 @@ function fillData(doc){
             '<table class="table table-condensed">',
                 '<thead>',
                     '<tr>',
-                        '<th>language</th>',
-                        '<th>I really got it</th>',
-                        '<th>To accomplish a project independently</th>',
-                        '<th>I can write them</th>',
-                        '<th>I used to work with them</th>',
+                        '<th style="font-size:8px;">language</th>',
+                        '<th style="font-size:8px;">I really got it</th>',
+                        '<th style="font-size:8px;">To accomplish a project independently</th>',
+                        '<th style="font-size:8px;">I can write them</th>',
+                        '<th style="font-size:8px;">I used to work with them</th>',
                     '</tr>',
                 '</thead>',
                 '<tbody>',
