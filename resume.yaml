@@ -16,12 +16,10 @@ profile:
   zh:
     - 我做事風格明快，不拖泥帶水，對事物保持好奇心以及積極的行動力與應變能力並且熱愛學習新技術。
     - 另外我非常享受並珍惜在一個高效的團隊裡工作的經驗，我重視團隊合作，希望個人跟團隊可以一同成長，互相激盪。
-    
-    - 在職涯的前八年，c++是我最熟悉的語言，我在AIX與Linux中使用SCI(system call interfaces)與IPC(inter-process communication)的技巧開發各種元件，方便其他語言呼叫，並且保持良好的效能。
-    - 另外我還透過python與ruby建立了各種測試程式，以確保產品有一定程度的穩定性，並且達到自動化的佈署，減少人為的疏失。
-
-    - 在現在的公司我開始使用java做為主要語言，而且也積極嘗試JVM上其他的新語言。
-    - 承蒙主管以及同事不吝嗇的分享知識與各種學習資源下我開始接觸了machine learning，並且藉由過往的程式經驗將演算法成功的整合到了系統之中，使得演算法不只是理論而有機會可以跟實務結合，而這結果也回饋給了公司，使得公司的人力可以更有效率的應用，並且減少人為的失誤的機率。
+    - 目前我在一間電商擔任研發部經理，主要負責新技術的研究與導入，最顯著的成果有導入推薦系統，並達到11%的轉換率。
+    - 另外還有做過商品自動分群與分類以及對消費者標記消費傾向(如男女老少等)的系統，協助分析客群。
+    - 對於機器學習的演算法與系統的結合，有豐富的實務經驗。
+    - 雖然已身為管理職，但每日寫一點程式仍然是我的興趣與習慣，並且可以維持我在第一線上的敏銳度。
 
   en:
     -
@@ -65,72 +63,88 @@ licenses:
   - name: BerkeleyX CS120x. Distributed Machine Learning with Apache Spark
     url:
 
+  - name: deeplearn.ai - Neural Networks and Deep Learning 
+    url:  
+
+  - name: deeplearn.ai - Improving Deep Neural Networks:Hyperparameter tuning, Regularization and Optimization
+    url:  
+
+  - name: deeplearn.ai - Structuring Machine Learning Projects
+    url:  
+
+  - name: deeplearn.ai - Convolutional Neural Networks
+    url:    
+
+  - name: deeplearn.ai - Sequence Models
+    url:     
+
+  - name: deeplearn.ai - Introduction to TensorFlow for Artificia Intelligence, Machine Learning, and Deep Learning
+    url:   
+
+  - name: deeplearn.ai - Convolutional Neural Networks in TensorFlow
+    url:       
+
 programs:
     - name: C++ 98
       level: excellent
-      lastuse: 5 years ago
+      lastuse: 5 years
 
     - name: Java
       level: good
-      lastuse: within 1 month
+      lastuse: 1 month
 
     - name: Kotlin
       level: good
-      lastuse: within 1 month
+      lastuse: 1 month
      
     - name: Python
       level: good
-      lastuse: within 1 month  
+      lastuse: 6 month  
     
     - name: Scala
       level: good
-      lastuse: 1 year ago
+      lastuse: 1 year
     
     - name: Ruby
       level: good
-      lastuse: 1 year ago
+      lastuse: 1 year
     
     - name: C#
       level: good
-      lastuse: 5 years ago  
+      lastuse: 5 years  
   
     - name: Pure c
       level: general
-      lastuse: 5 years ago
+      lastuse: 5 years
 
     - name: Java script
       level: general
-      lastuse: within 1 month
+      lastuse: 1 month
 
     - name: Php
       level: general
-      lastuse: 3 years ago
+      lastuse: 3 years
   
     - name: Perl
       level: basic
-      lastuse: 5 years ago
+      lastuse: 5 years
 
     - name: R
       level: basic
-      lastuse: 3 years ago
+      lastuse: 3 years
     
     - name: COBOL
       level: basic
-      lastuse: 5 years ago
+      lastuse: 5 years
 
 libraries:
   - C++ STD & MFC
   - Ruby on Rails
   - spark
   - kafka
-  - .net freamwork
-  - jQuery
-  - quickFIX
 
 databases:
   - Solr & Elastic
-  - Redis
-  - MsSQL
   - MySQL
   - PostgreSQL
   - Oracle
@@ -143,7 +157,7 @@ vsersion controlls:
 
 os:
   - Unix(AIX)
-  - Linux(ubuntu, centos)
+  - Linux(ubuntu, centos, zorin)
   - Windows
 
 special experiences and knowledge:
@@ -151,20 +165,21 @@ special experiences and knowledge:
   - TCP/IP with raw socket
   - Inter-process communication
   - Docker
-  - Google cloud platform
+  - GCP
+  - AWS
 
 companies:
   - name:
-      zh: Current Company
-      en: Current Company
+      zh: Uitox電子商務
+      en: Uitox
     position:
-      zh: 資深工程師
-      en: Senior software engineer
+      zh: 研發部經理
+      en: 
     description:
       zh: 
         - 電商  
       en:   
-    duration: 2014/1 – now
+    duration: 2014/1 – 2020/3
 
   - name:
       zh: Bull computer
@@ -186,7 +201,6 @@ companies:
       en: Software engineer
     description:
       zh: 
-        - 大型機台 博弈 
         - 線上遊戲 
       en:  
     duration: 2006/11 – 2010/5
@@ -200,7 +214,6 @@ companies:
     description:
       zh: 
         - 金融保險業  
-        - 
       en:
     duration: 2004/02 – 2006/11
 
@@ -222,13 +235,12 @@ attainments:
         zh: 個人化推薦系統
         en: A personal recommendation system.
       company:
-        zh: current company
-        en: current company
+        zh: Uitox
+        en: Uitox
       description:
         zh:
           - 透過各種算法(AR, CF, LCS, TFIDF etc.)的組合提供公司個人化首頁，個人化電子報，以及單品頁相關商品的推薦的服務。
-          - 此系統由我一人獨立完成架構的規劃，專案的管理，實驗的設計，數據的視覺化以及系統實作。
-          - 並且在不倚靠任何函式庫的情況下實作了AR(Association Rule)演算法。
+          - 另外在不倚靠任何函式庫的情況下實作了AR(Association Rule)演算法。
           - 該演算法在10 folds cross validation中達到了21%的命中率(扣除通用電商中衛生紙等常見日用品，若不扣除則命中率為29%)。
           - 上線後又設計了數據回收機制以統計Click-through rate(CTR)以及訂單轉換率，其中CTR平均為9.5%，最高為11%。
         en:
@@ -244,13 +256,12 @@ attainments:
         zh: 自動比價系統
         en:
       company:
-        zh: current company
-        en: current company
+        zh: Uitox
+        en: Uitox
       description:
         zh:
           - 我們的自動比價系統可以每天將我們的所有商品與目前四大通用電商進行重新比價。
-          - 我在其中負責核心演算法的撰寫，例如由商品資料中歸納出型號(電器部分)或者是關鍵字，再藉由網路爬蟲去各家電商搜尋更新資訊。
-          - 另外也參與了該系統其他部分的架構設計與規劃。
+          - 除了管理之外我也負責核心演算法的撰寫，例如由商品資料中歸納出型號(電器部分)或者是關鍵字，再藉由網路爬蟲去各家電商搜尋更新資訊。
         en:  
 
 
@@ -264,8 +275,8 @@ attainments:
         zh: 商品自動分類
         en: 
       company:
-        zh: current company
-        en: current company
+        zh: Uitox
+        en: Uitox
       description:
         zh: 
           - 透過原有商品資料訓練出一個模型，當有新商品要上架時，會透過該新商品的資料進行預測並自動進行分類，以加速商品上架速度。
@@ -281,8 +292,8 @@ attainments:
         zh: 使用者搜尋關鍵字即時偵測
         en:
       company:
-        zh: current company
-        en: current company
+        zh: Uitox
+        en: Uitox
       description:
         zh:
           - 即時的反應使用者在本公司的搜尋引擎上搜尋的趨勢。
@@ -354,7 +365,7 @@ attainments:
           - https://github.com/ireullin/NetworkScanner
 
 
-    - display: true
+    - display: false
       keywords:
         - Machine Learning
         - keras
@@ -365,8 +376,8 @@ attainments:
         zh: 圖形辨識系統
         en: 
       company:
-        zh: current company
-        en: current company
+        zh: Uitox
+        en: Uitox
       description:
         zh:
           - 使用neural network中特化的cnn算法進行圖像的辨識。給定兩張圖片，藉由演算法去判斷是同一件物品的機率有多高，正確率為78%。
@@ -380,8 +391,8 @@ attainments:
         zh: bin packing
         en:
       company:
-        zh: current company
-        en: current company
+        zh: Uitox
+        en: Uitox
       description:
         zh: 
           - 優化出貨時裝箱的空間利用率
@@ -389,7 +400,7 @@ attainments:
 
 
 
-    - display: true
+    - display: false
       keywords:
         - php
         - orcale DB
@@ -400,15 +411,15 @@ attainments:
         zh: 專案管理
         en: Project management.
       company:
-        zh: current company
-        en: current company
+        zh: Uitox
+        en: Uitox
       description:
         zh:
           - 帶領一個六人團隊，完成一個後端平台，其中包含架構設計，規格的討論，工作的分配，以及每人進度的掌握，並且協助解決每個人技術上遭遇的問題，最後在上海進行兩個月的技術交接。
         en:
 
 
-    - display: true
+    - display: false
       keywords:
         - docker
         - GCP
@@ -416,8 +427,8 @@ attainments:
         zh: 開發環境以及線上環境的的建立以及維護
         en: Built & maintained environments of procuction & development.
       company:
-        zh: current company
-        en: current company
+        zh: Uitox
+        en: Uitox
       description:
         zh:
           - 管理本地端機房以及GCP(Google Cloud Platform)上的VM以及docker container。另外也包含了自動化佈署，以及各機器效能的調校。
@@ -458,7 +469,7 @@ attainments:
         en:
 
 
-    - display: true
+    - display: false
       keywords:    
         - c++98
         - FIX protocol
@@ -484,7 +495,7 @@ attainments:
         - TMP protocol
         - AIX(unix)
       summary:
-        zh: 重新實作TMP協定，並且建立一個模擬證交所行為的server
+        zh: 實作TMP協定與證交所模擬器
         en: Implemented a library of TMP protocol. And make an emulator of server of TWSE.
       company:
         zh: Bull computer
@@ -513,7 +524,6 @@ attainments:
         zh:
           - 透過讀取COBOL的程式碼轉為c++並根據設定載入相應的library然後自動編譯以及測試。
           - 目的在減少人為操作上的疏失以及加快開發速度。
-          - 最早版本使用python撰寫，後來全部改為ruby。
         en:
 
 
