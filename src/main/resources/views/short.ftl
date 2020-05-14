@@ -23,7 +23,7 @@
 
     <div class="row">
         <div class="col-5">
-            <h2>Companies</h2>
+            <h2>Experiences</h2>
         </div>    
         <div class="col-4">
             <h2>Languages</h2>

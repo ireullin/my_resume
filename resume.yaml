@@ -494,6 +494,8 @@ attainments:
         - c#
         - TMP protocol
         - AIX(unix)
+        - TCP/IP(raw socket)
+        - IPC
       summary:
         zh: 實作TMP協定與證交所模擬器
         en: Implemented a library of TMP protocol. And make an emulator of server of TWSE.
