@@ -73,7 +73,8 @@ class Resume (val call: ApplicationCall){
     }
 
     private fun readYaml():Node{
-        val content = File("resume.yaml").readText()
+        val content = Resume::class.java.classLoader.getResource("resume.yaml").readText()
+//        val content = File("resume.yaml").readText()
         val jsonNode = ObjectMapper( YAMLFactory() ).readTree(content)
         val writer = ObjectMapper()
         val jsonStr = writer.writeValueAsString(jsonNode)

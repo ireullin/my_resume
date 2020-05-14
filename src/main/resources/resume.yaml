@@ -1,0 +1,570 @@
+name:
+  zh: 林建亨
+  en: Chien-Heng Lin
+
+mail: ireullin@gmail.com
+
+phones:
+  - (+886)933726835
+  - (+886)227854224
+
+github: https://github.com/ireullin
+
+blog: https://dotblogs.com.tw/ireullin
+
+profile:
+  zh:
+    - 我做事風格明快，不拖泥帶水，對事物保持好奇心以及積極的行動力與應變能力並且熱愛學習新技術。
+    - 另外我非常享受並珍惜在一個高效的團隊裡工作的經驗，我重視團隊合作，希望個人跟團隊可以一同成長，互相激盪。
+    - 目前我在一間電商擔任研發部經理，主要負責新技術的研究與導入，最顯著的成果有導入推薦系統，並達到11%的轉換率。
+    - 另外還有做過商品自動分群與分類以及對消費者標記消費傾向(如男女老少等)的系統，協助分析客群。
+    - 對於機器學習的演算法與系統的結合，有豐富的實務經驗。
+    - 雖然已身為管理職，但每日寫一點程式仍然是我的興趣與習慣，並且可以維持我在第一線上的敏銳度。
+
+  en:
+    -
+
+educations:
+  - school:
+      zh: 國立宜蘭大學二技部
+      en: National I-lan University 2-Years College
+    department:
+      zh: 機械工程系
+      en: Department of Mechanical and Electro-Mechanical Engineering
+    duration: 2000/9 – 2002/6
+
+  - school:
+      zh: 國立宜蘭大學五專部
+      en: National I-lan University 5-Years Junior College
+    department:
+      zh: 機械工程系
+      en: Department of Mechanical and Electro-Mechanical Engineering
+    duration: 1995/9 – 2000/6
+
+licenses:
+  - name: Stanford University Machine Learning
+    url: https://www.coursera.org/account/accomplishments/verify/XPA4ABGB3D5G
+
+  - name: edX Verified Certificate for Introduction to Big Data with Apache Spark
+    url: https://s3.amazonaws.com/verify.edx.org/downloads/e1dea0d2d0c344a6bb990185634d8034/Certificate.pdf
+
+  - name: edX Verified Certificate for Scalable Machine Learning
+    url: https://s3.amazonaws.com/verify.edx.org/downloads/9e4861dc0e1e49f98357a32aef596b16/Certificate.pdf
+
+  - name: Big Data a series of two courses offered by BerkeleyX through edX
+    url: https://s3.amazonaws.com/verify.edx.org/downloads/bea2cc236ac848e0a07544f09e4cf06f/Certificate.pdf
+
+  - name: BerkeleyX CS105x. Introduction to Apache Spark
+    url:
+
+  - name: BerkeleyX CS110x. Big Data Analysis with Apache Spark
+    url:
+
+  - name: BerkeleyX CS120x. Distributed Machine Learning with Apache Spark
+    url:
+
+  - name: deeplearn.ai - Neural Networks and Deep Learning 
+    url:  
+
+  - name: deeplearn.ai - Improving Deep Neural Networks:Hyperparameter tuning, Regularization and Optimization
+    url:  
+
+  - name: deeplearn.ai - Structuring Machine Learning Projects
+    url:  
+
+  - name: deeplearn.ai - Convolutional Neural Networks
+    url:    
+
+  - name: deeplearn.ai - Sequence Models
+    url:     
+
+  - name: deeplearn.ai - Introduction to TensorFlow for Artificia Intelligence, Machine Learning, and Deep Learning
+    url:   
+
+  - name: deeplearn.ai - Convolutional Neural Networks in TensorFlow
+    url:       
+
+programs:
+    - name: C++ 98
+      level: excellent
+      lastuse: 5 years
+
+    - name: Java
+      level: good
+      lastuse: 1 month
+
+    - name: Kotlin
+      level: good
+      lastuse: 1 month
+     
+    - name: Python
+      level: good
+      lastuse: 6 month  
+    
+    - name: Scala
+      level: good
+      lastuse: 1 year
+    
+    - name: Ruby
+      level: good
+      lastuse: 1 year
+    
+    - name: C#
+      level: good
+      lastuse: 5 years  
+  
+    - name: Pure c
+      level: general
+      lastuse: 5 years
+
+    - name: Java script
+      level: general
+      lastuse: 1 month
+
+    - name: Php
+      level: general
+      lastuse: 3 years
+  
+    - name: Perl
+      level: basic
+      lastuse: 5 years
+
+    - name: R
+      level: basic
+      lastuse: 3 years
+    
+    - name: COBOL
+      level: basic
+      lastuse: 5 years
+
+libraries:
+  - C++ STD & MFC
+  - Ruby on Rails
+  - spark
+  - kafka
+
+databases:
+  - Solr & Elastic
+  - MySQL
+  - PostgreSQL
+  - Oracle
+  - Cassandra
+
+vsersion controlls:
+  - Git
+  - SVN
+  - SourceSafe
+
+os:
+  - Unix(AIX)
+  - Linux(ubuntu, centos, zorin)
+  - Windows
+
+special experiences and knowledge:
+  - Scrum
+  - TCP/IP with raw socket
+  - Inter-process communication
+  - Docker
+  - GCP
+  - AWS
+
+companies:
+  - name:
+      zh: Uitox電子商務
+      en: Uitox
+    position:
+      zh: 研發部經理
+      en: 
+    description:
+      zh: 
+        - 電商  
+      en:   
+    duration: 2014/1 – 2020/3
+
+  - name:
+      zh: Bull computer
+      en: Bull computer
+    position:
+      zh: 資深工程師
+      en: Senior software engineer
+    description:
+      zh: 
+        - unix(IBM AIX)作業系統代理商
+      en:    
+    duration: 2010/11 – 2013/12
+
+  - name:
+      zh: 鈊象電子
+      en: International Games System CO.
+    position:
+      zh: 工程師
+      en: Software engineer
+    description:
+      zh: 
+        - 線上遊戲 
+      en:  
+    duration: 2006/11 – 2010/5
+
+  - name:
+      zh: 中國信託
+      en: Chinatrust
+    position:
+      zh: 工程師
+      en: Software engineer
+    description:
+      zh: 
+        - 金融保險業  
+      en:
+    duration: 2004/02 – 2006/11
+
+attainments:
+  comment:
+    zh: 只列出有特色的以及大型專案
+    en:
+
+  items:
+    - display: true
+      keywords:
+        - Machine Learning
+        - java
+        - scala
+        - kotlin
+        - python
+        - postgreSQL
+      summary:
+        zh: 個人化推薦系統
+        en: A personal recommendation system.
+      company:
+        zh: Uitox
+        en: Uitox
+      description:
+        zh:
+          - 透過各種算法(AR, CF, LCS, TFIDF etc.)的組合提供公司個人化首頁，個人化電子報，以及單品頁相關商品的推薦的服務。
+          - 另外在不倚靠任何函式庫的情況下實作了AR(Association Rule)演算法。
+          - 該演算法在10 folds cross validation中達到了21%的命中率(扣除通用電商中衛生紙等常見日用品，若不扣除則命中率為29%)。
+          - 上線後又設計了數據回收機制以統計Click-through rate(CTR)以及訂單轉換率，其中CTR平均為9.5%，最高為11%。
+        en:
+
+    - display: true
+      keywords:
+        - java
+        - cassandra
+        - solr
+        - postgreSQL
+        - linux
+      summary:
+        zh: 自動比價系統
+        en:
+      company:
+        zh: Uitox
+        en: Uitox
+      description:
+        zh:
+          - 我們的自動比價系統可以每天將我們的所有商品與目前四大通用電商進行重新比價。
+          - 除了管理之外我也負責核心演算法的撰寫，例如由商品資料中歸納出型號(電器部分)或者是關鍵字，再藉由網路爬蟲去各家電商搜尋更新資訊。
+        en:  
+
+
+    - display: true
+      keywords:
+        - java
+        - Machine Learning
+        - postgreSQL
+        - linux
+      summary:
+        zh: 商品自動分類
+        en: 
+      company:
+        zh: Uitox
+        en: Uitox
+      description:
+        zh: 
+          - 透過原有商品資料訓練出一個模型，當有新商品要上架時，會透過該新商品的資料進行預測並自動進行分類，以加速商品上架速度。
+          - 此系統提供三個可能的分類預測，第一優先選項命中率為78%，前兩的選項的命中率為86%，前三選項的命中率為90%。
+        en:  
+
+    - display: true
+      keywords:
+        - Ruby on Rails
+        - postgresSQL
+        - linux
+      summary:
+        zh: 使用者搜尋關鍵字即時偵測
+        en:
+      company:
+        zh: Uitox
+        en: Uitox
+      description:
+        zh:
+          - 即時的反應使用者在本公司的搜尋引擎上搜尋的趨勢。
+          - 並透過line或telegram等通訊軟體即時告知各相關人員，以及可以從中分析公司接下來進貨的方向。
+        en:
+
+
+    - display: true
+      keywords:
+        - Machine Learning
+        - ruby
+      summary:
+        zh: Machine Learning Libraries
+        en: Machine Learning Libraries
+      company:
+        zh: side projects
+        en: side projects
+      description:
+        zh:
+          - 我認為了解一個演算法最好的方式就是實作，所以在專案前期的實驗階段，只要時間上還寬裕我都會自己先實作一次演算法，以幫助自己了解整個算法的細節。
+          - 例如在一次使用者消費習慣的分群中，因為使用的是自己實作過的k-means套件，所以很快的能發現無法乾淨分群的原因在於質心距離的計算方式上。
+          - 所以將Distance的計算由慣用的Euclidean改為Manhattan，成功的分離出不同的消費者族群。
+          - 另外若該語言也剛好缺乏此方面的套件庫的話，我也很樂意貢獻出去。
+          - https://github.com/ireullin/decision-tree
+          - https://github.com/ireullin/kmeans-crystal
+          - https://github.com/ireullin/linear-regressions
+          - https://github.com/ireullin/principal-components-analysis
+        en:
+
+
+    - display: false
+      keywords:
+        - arduino
+        - mySQL
+        - linux
+      summary:
+        zh: 機器人農場
+        en: A robotic farm.
+      company:
+        zh: side projects
+        en: side projects
+      description:
+        zh:
+          - 單純為個人興趣的專案。
+          - 以arduino以及linux打造出一個室內的小農場。
+          - 可以透過系統監控空氣的濕度溫度，土壤的含水量以及照度，並且進行縮時攝影。
+          - 在光源不足的時候自動打開led燈，土壤水分不足的時候會發line通知澆水。
+        en:
+
+
+ 
+    - display: true
+      keywords:
+        - c++98
+        - AIX(unix)
+      summary:
+        zh: 網路掃描軟體 NetworkScanner
+        en: A network scanner.
+      company:
+        zh: side projects
+        en: side projects
+      description:
+        zh:
+          - 以練習為目的所開發的程式，可以大範圍掃描某個網段中所有機器工作中的port以及推斷其作業系統，並透過一個web介面加以控制。
+          - 此程式沒有使用system call之外的任何library，自行實作了ping(icmp scan)，traceroute， syn scan， syn/ack scan， fin scan 等功能，
+          - 並且還擁有一個實作了部分http protocol的web server以及json parser
+          - https://github.com/ireullin/NetworkScanner
+        en:
+          - https://github.com/ireullin/NetworkScanner
+
+
+    - display: false
+      keywords:
+        - Machine Learning
+        - keras
+        - tensorflow
+        - python
+        - linux
+      summary:
+        zh: 圖形辨識系統
+        en: 
+      company:
+        zh: Uitox
+        en: Uitox
+      description:
+        zh:
+          - 使用neural network中特化的cnn算法進行圖像的辨識。給定兩張圖片，藉由演算法去判斷是同一件物品的機率有多高，正確率為78%。
+        en:    
+
+
+    - display: false
+      keywords:
+        - kotlin
+      summary:
+        zh: bin packing
+        en:
+      company:
+        zh: Uitox
+        en: Uitox
+      description:
+        zh: 
+          - 優化出貨時裝箱的空間利用率
+        en: 
+
+
+
+    - display: false
+      keywords:
+        - php
+        - orcale DB
+        - team leader
+        - scurm
+        - trello
+      summary:
+        zh: 專案管理
+        en: Project management.
+      company:
+        zh: Uitox
+        en: Uitox
+      description:
+        zh:
+          - 帶領一個六人團隊，完成一個後端平台，其中包含架構設計，規格的討論，工作的分配，以及每人進度的掌握，並且協助解決每個人技術上遭遇的問題，最後在上海進行兩個月的技術交接。
+        en:
+
+
+    - display: false
+      keywords:
+        - docker
+        - GCP
+      summary:
+        zh: 開發環境以及線上環境的的建立以及維護
+        en: Built & maintained environments of procuction & development.
+      company:
+        zh: Uitox
+        en: Uitox
+      description:
+        zh:
+          - 管理本地端機房以及GCP(Google Cloud Platform)上的VM以及docker container。另外也包含了自動化佈署，以及各機器效能的調校。
+        en:
+
+
+    - display: false
+      keywords:    
+        - Ruby on Rails
+        - mySQL
+        - linux
+      summary:
+        zh: ERP系統
+        en: Systems of ERP
+      company:
+        zh: side projects
+        en: side projects
+      description:
+        zh:
+          - 私人承接的外包案。案主分別是一個室內設計工作室以及印刷廠，使用Ruby on Rails協助建立一套表單系統。
+        en:
+
+
+    - display: false
+      keywords:    
+        - Ruby on Rails
+        - mySQL
+        - linux
+      summary:
+        zh: MyClinic App
+        en: MyClinic App
+      company:
+        zh: side projects
+        en: side projects
+      description:
+        zh:
+          - 與一群朋友私下成立的專案。主要是在ios上面提供一個搜尋醫療資源的APP，我負責的是後端的部分，採用的是Ruby on Rails。
+        en:
+
+
+    - display: false
+      keywords:    
+        - c++98
+        - FIX protocol
+        - AIX(unix)
+      summary:
+        zh: 實作一個FIX協定的library
+        en: Implemented a library of FIX protocol.
+      company:
+        zh: Bull computer
+        en: Bull computer
+      description:
+        zh:
+          - FIX為新一代的證交所與期交所專線所使用的通訊協定。
+          - 當時國外免費的library只有QuickFIX，缺點為效能不佳與體積臃腫但太多的功能都用不到。
+          - 所以重新實作了一個輕便的新版本，這是當時業界中唯一自己實作的版本。
+        en:
+
+
+    - display: true
+      keywords:    
+        - c++98
+        - c#
+        - TMP protocol
+        - AIX(unix)
+        - TCP/IP(raw socket)
+        - IPC
+      summary:
+        zh: 實作TMP協定與證交所模擬器
+        en: Implemented a library of TMP protocol. And make an emulator of server of TWSE.
+      company:
+        zh: Bull computer
+        en: Bull computer
+      description:
+        zh:
+          - TMP協定為證交所股票與期貨交易所使用的協定，我重新由網路協定中的第四層實作了整個協定，並且調整了socket的參數使得整體處理速度與原本的相較下提升3倍。
+          - 另外透過蒐集證交所各種回覆，逆向工程建立了一個證交所的模擬伺服器，使得公司及客戶不需要額外申請測試線路，節省公司及客戶經費
+          - 此模擬證交所行為的server為業界唯一。
+        en:     
+
+
+    - display: true
+      keywords:
+        - c++98
+        - python
+        - COBOL
+        - AIX(unix)
+      summary:
+        zh: 自動產生程式碼，編譯以及測試
+        en: Developed tools for generating, compiling & testing code automatically.
+      company:
+        zh: Bull computer
+        en: Bull computer
+      description:
+        zh:
+          - 透過讀取COBOL的程式碼轉為c++並根據設定載入相應的library然後自動編譯以及測試。
+          - 目的在減少人為操作上的疏失以及加快開發速度。
+        en:
+
+
+    - display: true
+      keywords:
+        - c++98
+        - MsSQL
+        - MFC
+        - c#
+        - win forms
+        - MS windows
+      summary:
+        zh: 遊戲後端管理平台的開發
+        en: Developed a backend platform for managing games.
+      company:
+        zh: 鈊象電子
+        en: International Games System CO.
+      description:
+        zh:
+          - Game tower系列遊戲(明星三缺一為其中一款)後端管理平台的開發。
+          - 主要提供遊戲參數設定，牌局重現機制(sourcing log)，以及提供報表。
+        en:
+
+
+    - display: true
+      keywords:
+        - c++98
+        - MFC
+        - MS windows
+        - scurm
+      summary:
+        zh: 遊戲明星三缺一的程式維護
+        en: Maintained a mah-jongg game.
+      company:
+        zh: 鈊象電子
+        en: International Games System CO.
+      description:
+        zh:
+          - 主要負責麻將遊戲明星三缺一的client與server端維護與改版。
+        en:
+          - 
+          
