@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>林建亨的履歷</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="name"></div>
+        </div>
+        <div class="row">
+            <div class="col-5">
+                <img width="100" src="/photos/pic1.jpg" alt="Photo of 林建亨" class="img-thumbnail" >
+                <div id="phone"></div>
+                <div id="mail"></div>
+                <div id="github"></div>
+            </div>
+            <div class="col">
+                <div id="profile"></div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <div class="card-header">
+            <h2><b>Skills</b></h2>
+        </div>
+        <div class="card-body">
+            <h3><b>資料分析與探勘</b></h3>
+            <p>
+                請參考[附錄2]台科大演講簡報<br>
+                內容為在Uitox時期透過機器學習以及統計分析，探勘資料中的規則與趨勢，並為公司帶來獲利。
+            </p>
+
+            <h3><b>大語言模型的實際應用</b></h3>
+            <p>
+                請參考 [附錄3]論文大綱 LLM基於商品特徵抽取<br>
+                內容為我的碩士論文大綱，透過大語言模型，將商品特徵抽取出來，部分技術目前運用於精誠公司產品OneEC與OneCDP。
+                另外討論了大語言模型的實際應用上的方法與限制。
+            </p>
+                
+            <h3><b>相關證照</b></h3>
+            <p>請參考 附錄1</p>
+
+            <h3><b>其他專案經歷</b></h3>
+            <p>請參考 附錄4<p>
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <div class="card-header">
+            <h2><b>Patents</b></h2>
+        </div>
+        <div class="card-body">
+            <table id="patents"  class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Company</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <div class="card-header">
+            <h2><b>Career</b></h2>
+        </div>
+        <div class="card-body">
+                    
+            <table id="companies"  class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Position</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <div class="card-header">
+            <h2><b>Educations</b></h2>
+        </div>
+        <div class="card-body">
+                    
+            <table id="educations"  class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>School</th>
+                        <th>Department</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+<script>
+
+function fillContent(data) {
+    console.log(data);
+    document.getElementById("name").innerHTML = `<h1><b>${data.name.zh} ${data.name.en}</b></h1>`;
+    
+    const profile = data.profile.zh.join("<br>");
+    document.getElementById("profile").innerHTML += `<p>${profile}</p>`;
+
+    document.getElementById("mail").innerHTML = ` <i class="bi bi-mailbox-flag"></i> <a href="mailto:${data.mail}">${data.mail}</a>`;
+    document.getElementById("github").innerHTML = `<i class="bi bi-github"></i> <a href="${data.github}">${data.github}</a>`;
+    document.getElementById("phone").innerHTML = `<i class="bi bi-phone"></i> <a href="tel:${data.phones[0]}">${data.phones[0]}</a>`;
+
+    const companiesTableBody = document.getElementById("companies").getElementsByTagName("tbody")[0];
+    data.companies.forEach(x => {
+        let i = 0;
+        const row = companiesTableBody.insertRow();
+        row.insertCell(i++).textContent = x.name.zh;
+        row.insertCell(i++).textContent = x.position.zh;
+        row.insertCell(i++).textContent = x.duration;
+    });    
+
+    const educationTables = document.getElementById("educations").getElementsByTagName("tbody")[0];
+    data.educations.forEach(x => {
+        let i = 0;
+        const row = educationTables.insertRow();
+        row.insertCell(i++).textContent = x.school.zh;
+        row.insertCell(i++).textContent = x.department.zh;
+        row.insertCell(i++).textContent = x.duration;
+    });    
+
+    const patentsTables = document.getElementById("patents").getElementsByTagName("tbody")[0];
+    data.patents.forEach(x => {
+        let i = 0;
+        const row = patentsTables.insertRow();
+        row.insertCell(i++).textContent = x.name.zh;
+        row.insertCell(i++).textContent = x.company.zh;
+        row.insertCell(i++).textContent = x.type;
+    });    
+
+    
+}
+
+
+fetch('/resume')
+.then(response => response.json())
+.then(data => fillContent(data));
+// .catch(error => console.error('Error fetching resume:', error));
+</script>
+</body>
+</html>

@@ -6,25 +6,30 @@ mail: ireullin@gmail.com
 
 phones:
   - (+886)933726835
-  - (+886)227854224
+  - (02)227854224
 
 github: https://github.com/ireullin
 
-blog: https://dotblogs.com.tw/ireullin
+# blog: https://dotblogs.com.tw/ireullin
 
 profile:
   zh:
     - 我做事風格明快，不拖泥帶水，對事物保持好奇心以及積極的行動力與應變能力並且熱愛學習新技術。
-    - 另外我非常享受並珍惜在一個高效的團隊裡工作的經驗，我重視團隊合作，希望個人跟團隊可以一同成長，互相激盪。
-    - 目前我在一間電商擔任研發部經理，主要負責新技術的研究與導入，最顯著的成果有導入推薦系統，並達到11%的轉換率。
-    - 另外還有做過商品自動分群與分類以及對消費者標記消費傾向(如男女老少等)的系統，協助分析客群。
-    - 對於機器學習的演算法與系統的結合，有豐富的實務經驗。
-    - 雖然已身為管理職，但每日寫一點程式仍然是我的興趣與習慣，並且可以維持我在第一線上的敏銳度。
-
+    - 我享受並珍惜在一個高效的團隊裡工作的經驗，我重視團隊合作，希望個人跟團隊可以一同成長，互相激盪。
+    - 熱愛寫程式與演算法，演算法基礎理論以及實務的結合有豐富的經驗。
+    - 不管在哪個職位，每天都會寫一點程式，以保持自己在第一線上的敏銳度。
   en:
-    -
+
 
 educations:
+  - school:
+      zh: 國立台灣科技大學碩士班
+      en: National Taiwan University of Science and Technology
+    department:
+      zh: 管理所資管系
+      en: Department of Information Management
+    duration: 2022/9 - 在學中
+  
   - school:
       zh: 國立宜蘭大學二技部
       en: National I-lan University 2-Years College
@@ -168,7 +173,72 @@ special experiences and knowledge:
   - GCP
   - AWS
 
+patents:
+  - name: 
+      zh: 自動配量系統及其配量推薦方法
+    type: invention
+    number: 111143811
+    company:
+      zh: 精誠資訊股份有限公司
+      en: SYSTEX CORPORATION
+
+  - name: 
+      zh: 電子商務之商品上架決策系統及方法
+    type: invention
+    number: 111143808
+    company:
+      zh: 精誠資訊股份有限公司
+      en: SYSTEX CORPORATION
+
+  - name: 
+      zh: 一站式出貨系統
+    type: invention
+    number: 111143001
+    company:
+      zh: 精誠資訊股份有限公司
+      en: SYSTEX CORPORATION
+
+  - name: 
+      zh: 一站式電商管理系統
+    type: utility model
+    number: 111211756
+    company:
+      zh: 精誠資訊股份有限公司
+      en: SYSTEX CORPORATION
+
+  - name: 
+      zh: IT系統異常偵測演算法
+    type: invention
+    number: DS202110180006
+    company:
+      zh: 伊雲谷數位科技股份有限公司
+      en: eCloudvalley
+
+
+
 companies:
+  - name:
+      zh: 精誠資訊股份有限公司
+      en: SYSTEX CORPORATION
+    position:
+      zh: 資深技術處長
+      en: 
+    description:
+      zh: 
+      en:   
+    duration: 2022/03 – present
+    
+  - name:
+      zh: 伊雲谷數位科技股份有限公司
+      en: eCloudvalley
+    position:
+      zh: 技術顧問
+      en: 
+    description:
+      zh: 
+      en:   
+    duration: 2020/06 – 2022/03
+
   - name:
       zh: Uitox電子商務
       en: Uitox
@@ -179,7 +249,7 @@ companies:
       zh: 
         - 電商  
       en:   
-    duration: 2014/1 – 2020/3
+    duration: 2014/01 – 2020/03
 
   - name:
       zh: Bull computer
@@ -203,7 +273,7 @@ companies:
       zh: 
         - 線上遊戲 
       en:  
-    duration: 2006/11 – 2010/5
+    duration: 2006/11 – 2010/05
 
   - name:
       zh: 中國信託
@@ -223,6 +293,56 @@ attainments:
     en:
 
   items:
+    - display: true
+      keywords:
+        - Machine Learning
+        - c#
+        - python
+      summary:
+        zh: AIOPS 自動化運維系統
+        en: 
+      company:
+        zh: 伊雲谷數位科技股份有限公司
+        en: eCloudvalley
+      description:
+        zh:
+          - 透過機器學習的方式，將IT系統的異常行為進行分類，並且透過訓練出來的模型進行自動偵測。
+          - 該項目中演算法的部分有申請發明專利。
+        en:
+
+    - display: true
+      keywords:
+        - Machine Learning
+        - AWS
+        - audit
+      summary:
+        zh: AWS partner audit (亞洲部分)
+        en: 
+      company:
+        zh: 伊雲谷數位科技股份有限公司
+        en: eCloudvalley
+      description:
+        zh: 
+          - 主導亞洲 AWS partner audit 智能監控項目，並且順利通過
+
+    - display: true
+      keywords:
+        - Machine Learning
+        - AWS
+        - audit
+      summary:
+        zh: AWS partner audit (中國部分)
+        en: 
+      company:
+        zh: 伊雲谷數位科技股份有限公司
+        en: eCloudvalley
+      description:
+        zh:
+          - 主導中國 AWS partner audit 智能監控項目，並且順利通過
+
+
+
+  
     - display: true
       keywords:
         - Machine Learning
@@ -469,7 +589,7 @@ attainments:
         en:
 
 
-    - display: false
+    - display: true
       keywords:    
         - c++98
         - FIX protocol
