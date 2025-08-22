@@ -6,7 +6,6 @@ mail: ireullin@gmail.com
 
 phones:
   - (+886)933726835
-  - (02)227854224
 
 github: https://github.com/ireullin
 
@@ -32,7 +31,7 @@ educations:
     department:
       zh: 管理所資管系
       en: Department of Information Management
-    duration: 2022/9 - 在學中
+    duration: 2023/9 - 2025/8
   
   - school:
       zh: 國立宜蘭大學二技部
@@ -93,6 +92,24 @@ licenses:
   - name: deeplearn.ai - Convolutional Neural Networks in TensorFlow
     url:       
 
+  - name: deeplearn.ai - Build Basic Generative Adversarial Networks.
+    url:       
+
+  - name: deeplearn.ai - Build Better Generative Adversarial Networks.
+    url:       
+
+  - name: deeplearn.ai - Apply Generative Adversarial Networks.
+    url:       
+
+  - name: Aure Data Fundamentals
+    url:
+
+  - name: AWS Machine Learning
+    url:
+
+  - name: Google Project Management
+    url:       
+
 programs:
     - name: C++ 98
       level: excellent
@@ -149,13 +166,18 @@ programs:
 libraries:
   - C++ STD & MFC
   - Ruby on Rails
+  - flask
+  - spring boot
   - spark
   - kafka
+  - Rabbit MQ
 
 databases:
   - Solr & Elastic
   - MySQL
   - PostgreSQL
+  - Chroma DB
+  - SQLite
   - Oracle
   - Cassandra
 
@@ -174,10 +196,21 @@ special experiences and knowledge:
   - TCP/IP with raw socket
   - Inter-process communication
   - Docker
+  - Kubernetes
   - GCP
   - AWS
+  - GPIO
+  - I2C
 
 patents:
+  - name: 
+      zh: 結合反向索引資料庫與向量資料庫的問答系統及微調方式
+    type: invention
+    number: 111143811
+    company:
+      zh: 神基科技
+      en: Getac
+
   - name: 
       zh: 自動配量系統及其配量推薦方法
     type: invention
@@ -185,6 +218,7 @@ patents:
     company:
       zh: 精誠資訊股份有限公司
       en: SYSTEX CORPORATION
+    
 
   - name: 
       zh: 電子商務之商品上架決策系統及方法
@@ -218,9 +252,21 @@ patents:
       zh: 伊雲谷數位科技股份有限公司
       en: eCloudvalley
 
-
-
 companies:
+  - name:
+      zh: 神基科技
+      en: Getac
+    position:
+      zh: 資深主任工程師
+      en: 
+    description:
+      zh: 
+      en:   
+    duration: 2025/06 – 2025/08
+    reason:
+      zh: 工作內容不符
+
+  
   - name:
       zh: 精誠資訊股份有限公司
       en: SYSTEX CORPORATION
@@ -231,6 +277,9 @@ companies:
       zh: 
       en:   
     duration: 2022/03 – 2024/12
+    reason:
+      zh: 公司部門裁撤
+
     
   - name:
       zh: 伊雲谷數位科技股份有限公司
@@ -242,6 +291,9 @@ companies:
       zh: 
       en:   
     duration: 2020/06 – 2022/03
+    reason:
+      zh: 挖角
+
 
   - name:
       zh: Uitox電子商務
@@ -254,6 +306,9 @@ companies:
         - 電商  
       en:   
     duration: 2014/01 – 2020/03
+    reason:
+      zh: 公司倒閉
+
 
   - name:
       zh: Bull computer
@@ -297,6 +352,82 @@ attainments:
     en:
 
   items:
+    - display: true
+      keywords:
+        - Machine Learning
+        - LLM
+        - python
+        - GPIO
+        - I2C
+      summary:
+        zh: LLM小型化到嵌入式系統中
+        en: 
+      company:
+        zh: 神基科技
+        en: 
+      description:
+        zh:
+          - 結合硬體與韌體將LLM與向量資料庫小型化到嵌入式系統中。
+        en:
+
+    - display: true
+      keywords:
+        - Machine Learning
+        - java
+        - k8s
+        - docker
+        - python
+      summary:
+        zh: 一站式電商管理系統(OneEC)
+        en: 
+      company:
+        zh: 精誠資訊股份有限公司
+        en: 
+      description:
+        zh:
+          - 串接各大店商平台(蝦皮, PChome, momo, Yahoo等)的API，提供一個統一的後端系統來管理各大店商平台的商品。
+          - 並且透過演算法預測銷量及庫存關係，提供智能化建議。
+        en:
+
+    - display: true
+      keywords:
+        - Machine Learning
+        - java
+        - k8s
+        - docker
+        - python
+      summary:
+        zh: 一站式顧客管理系統(OenCRM)
+        en: 
+      company:
+        zh: 精誠資訊股份有限公司
+        en: 
+      description:
+        zh:
+          - 透過顧客瀏覽資訊及訂單使用machine learning的方式，挖掘客戶及商品價值。
+          - 建立顧客數位輪廓，並且透過推薦系統精準行銷商品。
+        en:
+
+    - display: true
+      keywords:
+        - Machine Learning
+        - LLM
+        - NLP
+        - k8s
+        - docker
+        - python
+      summary:
+        zh: 商品自動貼標分類及搜尋系統
+        en: 
+      company:
+        zh: 精誠資訊股份有限公司
+        en: 
+      description:
+        zh:
+          - 透過LLM與NLP手法結合，自動標註商品各種屬性，如顏色重量型號等，並且提供商品搜尋的API。
+        en:
+
+
     - display: true
       keywords:
         - Machine Learning
